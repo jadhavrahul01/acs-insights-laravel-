@@ -9,7 +9,7 @@
             <div class="header-hero header-hero-2 ">
                 <div class="container h-100">
                     <div class="row align-items-center h-100">
-                        <div class="col-lg-12">
+                        <div  class="col-lg-12">
                             <div class="contenet-hero">
                                 <h1>Connecting Brands to Customers…</h1>
                                 <p>Building strong connections between brands and their target customers through data-driven digital marketing approaches.</p>

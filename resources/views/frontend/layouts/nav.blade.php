@@ -30,10 +30,22 @@
                     <a href="{{url('/')}}">Home</a>
 
                 </li>
-                <li class="">
+                {{-- <li class="">
                     <a href="{{url('services')}}">Services </a>
+                </li> --}}
 
+                <li class="custom-drop-down">
+                    <a href="{{url('services')}}">Our Services</a>
+                    <ul>
+                        <li><a href="{{url('services')}}">All Services</a></li>
+                        <li><a href="{{url('business-consultancy')}}">Business Consultancy</a></li>
+                        <li><a href="{{url('services')}}">Marketing Solutions
+                        </a></li>
+                        <li><a href="{{url('services')}}">IT Solutions </a></li>
+                    </ul>
                 </li>
+
+
                 <li><a href="{{url('work')}}">Work </a></li>
 
                 <li class="">

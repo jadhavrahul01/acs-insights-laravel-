@@ -1,16 +1,31 @@
 @extends('frontend.layouts.app')
 @section('title', 'acs insights')
 @section('page')
+    <div data-image-src="{{ asset('user-assets/img/project/project6/hero-section.jpg') }}" data-overlay="4"
+        class="header-hero header-hero-2 ">
+        <div class="container h-100">
+            <div class="row align-items-center h-100">
+                <div class="text-center col-lg-12">
+                    <div class=" contenet-hero">
+                        <h1>Our Services</h1>
+                        {{-- <p>Building strong connections between brands and their target customers through data-driven digital marketing approaches.</p> --}}
+                        {{-- <a href="#" class="view-case scroll-down scroll-to">Scroll Down <img src="assets/img/arrow-right-wight.png" alt=""></a> --}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
-    <section class="intro-about section-margin" >
+    <section class="intro-about section-margin">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="">
                         <div class="">
                             <div class="">
-                                <img data-dsn-y="30%" src=" {{ url('https://img.freepik.com/free-photo/businessman-showing-changes-report_1098-3504.jpg?size=626&ext=jpg&ga=GA1.2.1932659750.1691659386&semt=ais') }}" alt="">
+                                <img data-dsn-y="30%"
+                                    src=" {{asset('user-assets/img/services/business-consultancy-service-image.jpg')}}"
+                                    alt="">
                             </div>
                         </div>
                     </div>
@@ -29,10 +44,11 @@
 
                         </p>
                         <div class="link-custom dsn-active" data-dsn-animate="up">
-                            <a class="image-zoom effect-ajax" href="project-9.html">
-                              <span>Learn More</span>
-                            <div class="icon-circle"></div></a>
-                          </div>
+                            <a class="image-zoom " href="/business-consultancy">
+                                <span>Learn More</span>
+                                <div class="icon-circle"></div>
+                            </a>
+                        </div>
                         {{-- <h6 data-dsn-animate="animate" class="dsn-active"><span class="dsn-wrapper"><span class="dsn-word-wrapper">SALVADOR</span></span><span class="dsn-wrapper"><span class="dsn-word-wrapper">DALI</span></span></h6> --}}
                     </div>
                 </div>
@@ -40,7 +56,7 @@
         </div>
 
     </section>
-    <section class="intro-about section-margin" >
+    <section class="intro-about section-margin">
         <div class="container">
             <div class="row">
 
@@ -61,18 +77,21 @@
                         </p>
                         <div class="link-custom dsn-active" data-dsn-animate="up">
                             <a class="image-zoom effect-ajax" href="project-9.html">
-                              <span>Learn More</span>
-                            <div class="icon-circle"></div></a>
-                          </div>
+                                <span>Learn More</span>
+                                <div class="icon-circle"></div>
+                            </a>
+                        </div>
 
                         {{-- <h6 data-dsn-animate="animate" class="dsn-active"><span class="dsn-wrapper"><span class="dsn-word-wrapper">SALVADOR</span></span><span class="dsn-wrapper"><span class="dsn-word-wrapper">DALI</span></span></h6> --}}
                     </div>
                 </div>
-                  <div class="col-lg-6">
+                <div class="col-lg-6">
                     <div class="">
-                        <div class="" >
+                        <div class="">
                             <div class="">
-                                <img data-dsn-y="30%" src=" {{ url('https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150061967.jpg?size=626&ext=jpg&ga=GA1.2.1932659750.1691659386&semt=ais') }}" alt="">
+                                <img data-dsn-y="30%"
+                                    src=" {{asset('user-assets/img/services/marketing-solutions-service-image.jpg')}}"
+                                    alt="">
                             </div>
                         </div>
                     </div>
@@ -81,14 +100,16 @@
         </div>
 
     </section>
-    <section class="intro-about section-margin" >
+    <section class="intro-about section-margin">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
                     <div class="">
-                        <div class="" >
+                        <div class="">
                             <div class="">
-                                <img data-dsn-y="30%" src=" {{ url('https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041861.jpg?size=626&ext=jpg&ga=GA1.2.1932659750.1691659386&semt=ais') }}" alt="">
+                                <img data-dsn-y="30%"
+                                    src=" {{asset('user-assets/img/services/it-solutions-service-image.jpg')}}"
+                                    alt="">
                             </div>
                         </div>
                     </div>
@@ -106,12 +127,13 @@
 
 
                             "Navigating your digital transformation with innovative IT solutions."
-</p>
-<div class="link-custom dsn-active" data-dsn-animate="up">
-    <a class="image-zoom effect-ajax" href="project-9.html">
-      <span>Learn More</span>
-    <div class="icon-circle"></div></a>
-  </div>
+                        </p>
+                        <div class="link-custom dsn-active" data-dsn-animate="up">
+                            <a class="image-zoom effect-ajax" href="project-9.html">
+                                <span>Learn More</span>
+                                <div class="icon-circle"></div>
+                            </a>
+                        </div>
                         {{-- <h6 data-dsn-animate="animate" class="dsn-active"><span class="dsn-wrapper"><span class="dsn-word-wrapper">SALVADOR</span></span><span class="dsn-wrapper"><span class="dsn-word-wrapper">DALI</span></span></h6> --}}
                     </div>
                 </div>

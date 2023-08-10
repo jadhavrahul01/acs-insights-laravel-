@@ -5,6 +5,7 @@ use App\Http\Controllers\frontend\HomeController;
 use App\Http\Controllers\frontend\AboutController;
 use App\Http\Controllers\frontend\ServicesController;
 use App\Http\Controllers\frontend\ContactController;
+use App\Http\Controllers\frontend\BusinessconsultancyController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,6 +20,7 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('about', [AboutController::class, 'index']);
 Route::get('services', [ServicesController::class, 'index']);
 Route::get('contact', [ContactController::class, 'index']);
+Route::get('business-consultancy', [BusinessconsultancyController::class, 'index']);
 
 
 

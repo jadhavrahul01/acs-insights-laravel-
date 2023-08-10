@@ -3,6 +3,9 @@
 @section('page')
 <main class="main-root">
     <div id="dsn-scrollbar">
+
+
+
         <div class="dsn-slider" data-dsn-header="project">
             <div class="dsn-root-slider" id="dsn-hero-parallax-img">
                 <div class="slide-inner">
@@ -11,35 +14,101 @@
                             <div class="slide-content">
                                 <div class="slide-content-inner">
                                     <div class="project-metas">
-                                        <!-- <div class="project-meta-box project-work cat">
-                                            <span>Brands</span>
-                                        </div> -->
+                                        {{-- <div class="project-meta-box project-work cat">
+                                            <span>Architecture</span>
+                                        </div> --}}
                                     </div>
 
                                     <div class="title-text-header">
                                         <div class="title-text-header-inner">
-                                            <a href="project-9.html" class="effect-ajax" data-dsn-ajax="slider">
 
-
+                                            <a href="{{url('/')}}" class="effect-ajax" data-dsn-ajax="slider">
+                                              Transform. Engage. Succeed
                                             </a>
-                                            <h1 class="effect-ajax" data-dsn-ajax="slider">Transform. Engage.<br> Succeed</h1>
+
                                         </div>
                                     </div>
 
-                                    <p> Fueling your online success with targeted strategies and measurable results.
-                                    </p>
+                                    <p>Fueling your online success with targeted strategies and measurable results.</p>
 
                                     <div class="link-custom">
-                                        <a href="{{ 'contact' }}" class="image-zoom effect-ajax" data-dsn="parallax" data-dsn-ajax="slider">
-                                            <span>Get in Touch</span>
+                                        <a href="{{url('contact')}}"class="image-zoom effect-ajax" data-dsn="parallax" data-dsn-ajax="slider">
+                                            <span>Get In Touch</span>
                                         </a>
                                     </div>
-
 
                                 </div>
                             </div>
                             <div class="image-container">
-                                <div style="opacity: 0.7;" class="image-bg cover-bg my-change" data-image-src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" data-overlay="0" >
+                                <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" data-overlay="4">
+                                    <img src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item swiper-slide">
+                            <div class="slide-content">
+                                <div class="slide-content-inner">
+                                    <div class="project-metas">
+                                        <div class="project-meta-box project-work cat">
+                                            <span>Architecture</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="title-text-header">
+                                        <div class="title-text-header-inner">
+                                            <a href="project-5.html" class="effect-ajax" data-dsn-ajax="slider">
+                                                Novara Conic
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <p>Cal was first. The first public university in the great state
+                                        of California. They are the pioneers.</p>
+
+                                    <div class="link-custom">
+                                        <a href="project-5.html" class="image-zoom effect-ajax" data-dsn="parallax" data-dsn-ajax="slider">
+                                            <span>Get In Touch</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="image-container">
+                                <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" data-overlay="4">
+                                    <img src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-item swiper-slide">
+                            <div class="slide-content">
+                                <div class="slide-content-inner">
+                                    <div class="project-metas">
+                                        <div class="project-meta-box project-work cat">
+                                            <span>Architecture</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="title-text-header">
+                                        <div class="title-text-header-inner">
+                                            <a href="project-5.html" class="effect-ajax" data-dsn-ajax="slider">
+                                                Novara Conic
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <p>Cal was first. The first public university in the great state
+                                        of California. They are the pioneers.</p>
+
+                                    <div class="link-custom">
+                                        <a href="project-5.html" class="image-zoom effect-ajax" data-dsn="parallax" data-dsn-ajax="slider">
+                                            <span>Get In Touch</span>
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="image-container">
+                                <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" data-overlay="4">
                                     <img src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" alt="">
                                 </div>
                             </div>
@@ -54,6 +123,24 @@
 
             <div class="nav-slider">
                 <div class="swiper-wrapper" role="navigation">
+                    <div class="swiper-slide">
+                        <div class="image-container">
+                            <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" data-overlay="2">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>01</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-container">
+                            <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" data-overlay="2">
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>01</p>
+                        </div>
+                    </div>
                     <div class="swiper-slide">
                         <div class="image-container">
                             <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" data-overlay="2">
@@ -631,10 +718,11 @@
                             </span>
 
                         </a>
+
                     </div>
                 </div>
                 <div class="pop-up-btn text-center">
-                    <a href="contact.html">
+                    <a href="{{url('contact')}}">
                 <button class="mt-100 first-button image-zoom effect-ajax" data-dsn-ajax="slider"><span>Get a Free Business Plan</span></button></a></div>
                 <!-- <div class="pop-up-btn">
                 <button onclick="togglePopup()" class="mt-100 first-button image-zoom effect-ajax" data-dsn-ajax="slider"><span>Get a Free Business Plan</span></button></div> -->

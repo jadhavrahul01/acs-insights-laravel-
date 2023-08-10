@@ -25,30 +25,31 @@
           </div>
 
           <div class="container section-margin">
-            <div class="row">
+            <div style="align-items: center" class="row">
               <div class="col-lg-6">
                 <div class="box-info-contact">
-                  <h3>New project, new aspirations, fresh start!</h3>
-                  <h5>Step into our agency</h5>
+                  <h3>
+                    Have a new idea or project?
+                    </h3>
+                  <h5>Connect with us today at </h5>
                   <p>Welcome to our agency, where we use advanced skills and innovative online world solutions to take your brand to new heights!</p>
 
                   <ul>
                     <li>
-                      <span>Phone</span>
+                      <span style="min-width: 85px;">Phone</span>
                       <a href="tel:+91 8390194975">+91 8390194975</a> /
                       <a href="tel:+91 9145455019">+91 9145455019</a>
                     </li>
                     <li>
-                      <span>Email</span>
+                      <span style="min-width: 85px;">Email</span>
                       <a href="mailto:
                       hello@acsinsights.com">
                         hello@acsinsights.com</a>
                     </li>
                     <li>
-                      <span>Address</span>
-                      <a href="#">Office No 03, Indraprastha Building Bhimnagar Boisar
-                        Palghar Near Jumani Digital Boisar tarapur
-                        Road Maharashtra 401501</a>
+                      <span style="min-width: 85px;">Address</span>
+                      <a href="#">Shop No 3, Indraprastha Bldg, Bhimnagar, Boisar, 401504
+                    </a>
                     </li>
                   </ul>
                 </div>
@@ -56,7 +57,8 @@
 
               <div class="col-lg-6">
                 <div class="form-box">
-                  <h3>Write A Comment</h3>
+                  <h3 style="text-align: center">Have Something to Say or Convey?
+                  </h3>
                <div style="background-color: white;
                    padding: 40px;
                    border-radius: 40px;" class="secondcol1">

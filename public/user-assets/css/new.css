@@ -656,6 +656,11 @@ amp-story-player.my-player {
   flex-direction: column;
 }
 
+
+
+
+
+
 .timeline-content {
   padding: 20px;
   background: #1f1f1f;
@@ -713,7 +718,11 @@ width: 428px;
 }
 
 
-
+.content-ab{
+    text-align: center;
+    width: 100%;
+    
+}
 
 
 

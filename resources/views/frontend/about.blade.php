@@ -192,12 +192,12 @@
 
                 <section class="our-services section-margin">
                     <div class="container">
-                        <div class="one-title dsn-active" data-dsn-animate="up">
-                            <div class="title-sub-container">
-                                <p class="title-sub">OUR SERVCIES</p>
-                            </div>
-                            <h2 class="title-main">New Branding Agency</h2>
+                        {{-- <div class="one-title dsn-active" data-dsn-animate="up"> --}}
+                        <div class="content-ab" data-dsn-animate="up">
+                            <h2 style="margin-bottom: 20px" class="title-main">Professionals in Digital Marketing</h2>
+                            <p style="font-size: 17px">Unlock the full potential of your business in the digital landscape with our <br> data-driven campaigns and cutting-edge techniques.</p>
                         </div>
+                        {{-- </div> --}}
                     <section class="design-section">
                     <div class="timeline">
               <div class="timeline-empty">

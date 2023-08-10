@@ -7526,7 +7526,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   left: 15px;
   right: 15px;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
   -webkit-transform: scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
@@ -11268,7 +11268,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 /* -------------------------------------------------------
-                   
+
 -------------------------------------------------------- */
 .header-hero {
   position: relative;
@@ -11437,7 +11437,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 /* -------------------------------------------------------
-                   
+
 -------------------------------------------------------- */
 .header-single-post {
   position: relative;

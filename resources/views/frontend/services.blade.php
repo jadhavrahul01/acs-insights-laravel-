@@ -76,7 +76,7 @@
 
                         </p>
                         <div class="link-custom dsn-active" data-dsn-animate="up">
-                            <a class="image-zoom effect-ajax" href="project-9.html">
+                            <a class="image-zoom " href="/marketing-solution">
                                 <span>Learn More</span>
                                 <div class="icon-circle"></div>
                             </a>
@@ -129,7 +129,7 @@
                             "Navigating your digital transformation with innovative IT solutions."
                         </p>
                         <div class="link-custom dsn-active" data-dsn-animate="up">
-                            <a class="image-zoom effect-ajax" href="project-9.html">
+                            <a class="image-zoom" href="/it-solution">
                                 <span>Learn More</span>
                                 <div class="icon-circle"></div>
                             </a>

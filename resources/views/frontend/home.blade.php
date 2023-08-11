@@ -38,8 +38,8 @@
                                 </div>
                             </div>
                             <div class="image-container">
-                                <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" data-overlay="4">
-                                    <img src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" alt="">
+                                <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/banner/hero-marketing-solutions.jpg')}}" data-overlay="4">
+                                    <img src="{{asset('user-assets/img/banner/consultancy-hero-banner.jpg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -72,8 +72,8 @@
                                 </div>
                             </div>
                             <div class="image-container">
-                                <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" data-overlay="4">
-                                    <img src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" alt="">
+                                <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/banner/it-solutions-hero-banner.jpg')}}" data-overlay="4">
+                                    <img src="{{asset('user-assets/img/banner/it-solutions-hero-banner.jpg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -106,8 +106,8 @@
                                 </div>
                             </div>
                             <div class="image-container">
-                                <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" data-overlay="4">
-                                    <img src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" alt="">
+                                <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/banner/marketing-hero-banner.jpg')}}" data-overlay="4">
+                                    <img src="{{asset('user-assets/img/banner/marketing-hero-banner.jpg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -123,7 +123,7 @@
                 <div class="swiper-wrapper" role="navigation">
                     <div class="swiper-slide">
                         <div class="image-container">
-                            <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" data-overlay="2">
+                            <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/banner/hero-marketing-solutions.jpg')}}" data-overlay="2">
                             </div>
                         </div>
                         <div class="content">
@@ -132,7 +132,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="image-container">
-                            <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" data-overlay="2">
+                            <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/banner/it-solutions-hero-banner.jpg')}}" data-overlay="2">
                             </div>
                         </div>
                         <div class="content">
@@ -141,7 +141,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="image-container">
-                            <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/project/project6/hero-section.jpg')}}" data-overlay="2">
+                            <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/banner/marketing-hero-banner.jpg')}}" data-overlay="2">
                             </div>
                         </div>
                         <div class="content">
@@ -463,6 +463,7 @@
                         </div>
 
                         <div class="items">
+
                             <div class="bg"></div>
                             <div class="slick-slider">
 

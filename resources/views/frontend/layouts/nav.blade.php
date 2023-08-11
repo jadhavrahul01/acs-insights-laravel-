@@ -118,7 +118,7 @@
 
 <nav style="background: #000000" class="navbar">
 
-    <a href="{{ url('/') }}"> <img style="margin: 20px 0 20px 0; width:130px;" class="dark-logo"
+    <a href="/"> <img style="margin: 20px 0 20px 0; width:110px;" class="dark-logo"
             src="{{ asset('user-assets/img/logo/acslogo.svg') }}" alt=""></a>
 
     <div class="menu-container">
@@ -127,12 +127,12 @@
             <!-- Mens -->
             <li class="dropdown">
                 <div>
-                    <span>Home</span>
+                    <a href="{{ url('/') }}">Home</a>
                     <span class="material-symbols-outlined">
                         chevron_right
                     </span>
                 </div>
-                <ul class="menu">
+                {{-- <ul class="menu">
                     <li>
                         <a href="#">Men</a>
                     </li>
@@ -279,7 +279,7 @@
                             </li>
                         </ul>
                     </li>
-                </ul>
+                </ul> --}}
             </li>
             <!-- Women section -->
             <li class="dropdown">
@@ -292,7 +292,7 @@
                 </div>
                 <ul class="menu">
                     <li>
-                        <a href="#">Women</a>
+                        <a href="#">Our Services</a>
                     </li>
                     <li class="sub-dropdown">
                         <div>
@@ -449,7 +449,7 @@
                 </div>
                 <ul class="menu">
                     <li>
-                        <a href="#">Kids</a>
+                        <a href="#">Work</a>
                     </li>
                     <li class="sub-dropdown">
                         <div>
@@ -583,135 +583,9 @@
                         chevron_right
                     </span>
                 </div>
-                <ul class="menu">
-                    <li>
-                        <a href="#">Sale</a>
-                    </li>
-                    <li class="sub-dropdown">
-                        <div>
-                            <span>Featured</span>
-                            <span class="material-symbols-outlined">
-                                chevron_right
-                            </span>
-                        </div>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="#">Featured</a>
-                            </li>
-                            <li>
-                                <a href="#">Shop All Sale</a>
-                            </li>
-                            <li>
-                                <a href="#">Bestsellers</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="sub-dropdown">
-                        <div>
-                            <span>Sale For Men</span>
-                            <span class="material-symbols-outlined">
-                                chevron_right
-                            </span>
-                        </div>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="#">Shop All Sale Men's</a>
-                            </li>
-                            <li>
-                                <a href="#">Shoes</a>
-                            </li>
-                            <li>
-                                <a href="#">Clothing</a>
-                            </li>
-                            <li>
-                                <a href="#">Accessories</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="sub-dropdown">
-                        <div>
-                            <span>Sale For Women</span>
-                            <span class="material-symbols-outlined">
-                                chevron_right
-                            </span>
-                        </div>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="#">Shop All Sale Women's</a>
-                            </li>
-                            <li>
-                                <a href="#">Shoes</a>
-                            </li>
-                            <li>
-                                <a href="#">Clothing</a>
-                            </li>
-                            <li>
-                                <a href="#">Accessories</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="sub-dropdown">
-                        <div>
-                            <span>Sale For Kids</span>
-                            <span class="material-symbols-outlined">
-                                chevron_right
-                            </span>
-                        </div>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="#">Shop All Sale Kid's</a>
-                            </li>
-                            <li>
-                                <a href="#">Shoes</a>
-                            </li>
-                            <li>
-                                <a href="#">Clothing</a>
-                            </li>
-                            <li>
-                                <a href="#">Accessories</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="sub-dropdown">
-                        <div>
-                            <span>Sale By Sport</span>
-                            <span class="material-symbols-outlined">
-                                chevron_right
-                            </span>
-                        </div>
-                        <ul class="sub-menu">
-                            <li>
-                                <a href="#">Sale by Sport's</a>
-                            </li>
-                            <li>
-                                <a href="#">Running</a>
-                            </li>
-                            <li>
-                                <a href="#">Football</a>
-                            </li>
-                            <li>
-                                <a href="#">Basketball</a>
-                            </li>
-                            <li>
-                                <a href="#">Gym and Training</a>
-                            </li>
-                            <li>
-                                <a href="#">Tennis</a>
-                            </li>
-                            <li>
-                                <a href="#">Golf</a>
-                            </li>
-                            <li>
-                                <a href="#">Yoga</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+
             </li>
             <!-- Collections section -->
-
-
-
         </ul>
     </div>
 

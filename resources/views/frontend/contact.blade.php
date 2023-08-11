@@ -32,7 +32,7 @@
                     Have a new idea or project?
                     </h3>
                   <h5>Connect with us today at </h5>
-                  <p>Welcome to our agency, where we use advanced skills and innovative online world solutions to take your brand to new heights!</p>
+                  <p>Welcome to our agency, where we use advanced skills and innovative online world solutions to take your brand to new heights!</p>
 
                   <ul>
                     <li>

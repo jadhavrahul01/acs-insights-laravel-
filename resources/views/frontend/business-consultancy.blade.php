@@ -1,7 +1,10 @@
 @extends('frontend.layouts.app')
 @section('title', 'Business Consultancy')
 @section('page')
-    <div data-image-src="{{ asset('user-assets/img/banner/consultancy-hero-banner.jpg') }}" data-overlay="4"
+
+<section class="intro-about section-margin">
+    <div style="background-position: center;
+    background-size: cover;" data-image-src="{{ asset('user-assets/img/banner/consultancy-hero-banner.jpg') }}" data-overlay="7"
         class="header-hero header-hero-2 ">
         <div class="container h-100">
             <div class="row align-items-center h-100">
@@ -22,8 +25,7 @@
             </div>
         </div>
     </div>
-
-<section class="intro-about section-margin">
+</section>
 
       <!--  Thanks to frontendmentor.io for the challenge.  -->
 

@@ -7,7 +7,10 @@
     <!--  Title -->
     <title>ACS Insights - India's Leading Business Strategy, Analytics, and Consulting Services | Unlocking Business Potential</title>
 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="pure-js-slider.css" rel="stylesheet">
 
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
 
 <!-- Start of HubSpot Embed Code -->
   <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/40237595.js"></script>

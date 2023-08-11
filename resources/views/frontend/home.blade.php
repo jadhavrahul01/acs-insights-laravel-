@@ -28,9 +28,7 @@
 
                                         </div>
                                     </div>
-
                                     <p>Fueling your online success with targeted strategies and measurable results.</p>
-
                                     <div class="link-custom">
                                         <a href="{{url('contact')}}"class="image-zoom effect-ajax" data-dsn="parallax" data-dsn-ajax="slider">
                                             <span>Get In Touch</span>
@@ -138,7 +136,7 @@
                             </div>
                         </div>
                         <div class="content">
-                            <p>01</p>
+                            <p>02</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -147,7 +145,7 @@
                             </div>
                         </div>
                         <div class="content">
-                            <p>01</p>
+                            <p>03</p>
                         </div>
                     </div>
 
@@ -475,7 +473,7 @@
                                     </div>
                                     <div class="bottom">
                                         <div class="avatar">
-                                            <img src="assets/img/avatar/6.jpeg" alt="">
+                                            <img src="{{asset('user-assets/img/avatar/6.jpeg')}}" alt="">
                                         </div>
                                         <div class="label">
                                             <div class="cell"> Akhil Raj <br><br>(Publicize 360)</div>

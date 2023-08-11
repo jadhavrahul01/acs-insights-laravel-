@@ -2,10 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\frontend\HomeController;
-use App\Http\Controllers\frontend\AboutController;
-use App\Http\Controllers\frontend\ServicesController;
-use App\Http\Controllers\frontend\ContactController;
-use App\Http\Controllers\frontend\BusinessconsultancyController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,10 +14,12 @@ use App\Http\Controllers\frontend\BusinessconsultancyController;
 |
 */
 Route::get('/', [HomeController::class, 'index']);
-Route::get('about', [AboutController::class, 'index']);
-Route::get('services', [ServicesController::class, 'index']);
-Route::get('contact', [ContactController::class, 'index']);
-Route::get('business-consultancy', [BusinessconsultancyController::class, 'index']);
+Route::get('about', [HomeController::class, 'about']);
+Route::get('services', [HomeController::class, 'services']);
+Route::get('contact', [HomeController::class, 'contact']);
+Route::get('business-consultancy', [HomeController::class, 'businessconsultancy']);
+Route::get('it-solution', [HomeController::class, 'itsolution']);
+Route::get('marketing-solution', [HomeController::class, 'marketingsolution']);
 
 
 

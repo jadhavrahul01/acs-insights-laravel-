@@ -265,7 +265,7 @@
                                             <img src="{{asset('user-assets/img/services/1.png')}}" alt="">
                                         </div>
                                         <div class="services-header">
-                                            <h3>Digital Assets </h3>
+                                            <h3>Digital <br> Assets </h3>
                                         </div>
                                         <p>With data-driven marketing strategies, you'll increase visibility, boost visibility, and grow your business.</p>
                                         <div class="link-custom">
@@ -284,7 +284,7 @@
                                             <img src="{{asset('user-assets/img/services/2.png')}}" alt="">
                                         </div>
                                         <div class="services-header">
-                                            <h3>IT Services  </h3>
+                                            <h3>IT <br> Services  </h3>
                                         </div>
                                         <p>Integrate technology seamlessly and optimize performance with our comprehensive IT services.</p>
                                         <div class="link-custom">
@@ -477,7 +477,11 @@
                                             <img src="{{asset('user-assets/img/avatar/6.jpeg')}}" alt="">
                                         </div>
                                         <div class="label">
-                                            <div class="cell"> Akhil Raj <br><br>(Publicize 360)</div>
+                                            <h6> Akhil Raj</h6>
+                                              <br>
+                                            <h6>(Publicize 360)</h6>
+
+
                                         </div>
                                     </div>
                                 </div>
@@ -491,7 +495,9 @@
                                             <img src="https://amalov.com/wp-content/uploads/elementor/thumbs/LHM-CV-photo-p9kl0et88z54zc6ioiuwfysc4kra67db92bczfss5k.jpg" alt="">
                                         </div>
                                         <div class="label">
-                                            <div class="cell">Veronica Liew Hui Mei <br><br> (Founder At Amalav)</div>
+                                            <h6>Veronica Liew Hui Mei</h6>
+                                            <br>
+                                          <h6>(Founder At Amalav)</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -505,8 +511,10 @@
                                             <img src="{{asset('user-assets/img/avatar/4.jpeg')}}" alt="">
                                         </div>
                                         <div class="label">
-                                            <div class="cell"> Dr. Geeta Raju <br> <br>
-                                                (Partner At Petals India)</div>
+                                            <h6> Dr. Geeta Raju </h6>
+                                            <br>
+                                          <h6>(Partner At Petals India)</h6>
+
                                         </div>
                                     </div>
                                 </div>
@@ -519,7 +527,10 @@
                                             <img src="{{asset('user-assets/img/avatar/5.jpeg')}}" alt="">
                                         </div>
                                         <div class="label">
-                                            <div class="cell"> Tania Sharma <br> <br> (Growth Manager Workindia)</div>
+                                            <h6>Tania Sharma</h6>
+                                            <br>
+                                          <h6>(Growth Manager Workindia)</h6>
+
                                         </div>
                                     </div>
                                 </div>
@@ -533,7 +544,10 @@
                                             <img src="{{asset('user-assets/img/avatar/7.jpeg')}}" alt="">
                                         </div>
                                         <div class="label">
-                                            <div class="cell">Sabir Shaikh <br> <br>(The Mental Talkies)</div>
+                                            <h6>Sabir Shaikh </h6>
+                                            <br>
+                                          <h6>(The Mental Talkies)</h6>
+
                                         </div>
                                     </div>
                                 </div>
@@ -547,7 +561,10 @@
                                             <img src="{{asset('user-assets/img/avatar/8.jpeg')}}" alt="">
                                         </div>
                                         <div class="label">
-                                            <div class="cell">Abhijeet Aswar<br> <br>(Founder At TA)</div>
+                                            <h6>Abhijeet Aswar</h6>
+                                            <br>
+                                          <h6>(Founder At TA)</h6>
+
                                         </div>
                                     </div>
                                 </div>

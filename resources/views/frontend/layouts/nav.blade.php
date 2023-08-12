@@ -291,32 +291,30 @@
                     </span>
                 </div>
                 <ul class="menu">
-                    <li>
+                    {{-- <li>
                         <a href="#">Our Services</a>
-                    </li>
+                    </li> --}}
                     <li class="sub-dropdown">
                         <div>
-                            <span>Featured</span>
+                            <span>Business</span>
                             <span class="material-symbols-outlined">
                                 chevron_right
                             </span>
                         </div>
                         <ul class="sub-menu">
                             <li>
-                                <a href="#">Featured</a>
+                                <a href="{{ url('business-consultancy')}}">Business Consultancy</a>
                             </li>
                             <li>
-                                <a href="#">New Releases</a>
+                                <a href="{{ url('marketing-solution')}}">Marketing Solution</a>
                             </li>
                             <li>
-                                <a href="# ">SKNRS Launch Calendar</a>
+                                <a href="{{ url('it-solution')}}">IT Solution</a>
                             </li>
-                            <li>
-                                <a href="#">Bestsellers</a>
-                            </li>
+
                         </ul>
                     </li>
-                    <li class="sub-dropdown">
+                    {{-- <li class="sub-dropdown">
                         <div>
                             <span>Shoes</span>
                             <span class="material-symbols-outlined">
@@ -340,8 +338,8 @@
                                 <a href="#">Training and Gym</a>
                             </li>
                         </ul>
-                    </li>
-                    <li class="sub-dropdown">
+                    </li> --}}
+                    {{-- <li class="sub-dropdown">
                         <div>
                             <span>Clothing</span>
                             <span class="material-symbols-outlined">
@@ -386,8 +384,8 @@
                                 <a href="#">Skirts and Dresses</a>
                             </li>
                         </ul>
-                    </li>
-                    <li class="sub-dropdown">
+                    </li> --}}
+                    {{-- <li class="sub-dropdown">
                         <div>
                             <span>Shop By Sport</span>
                             <span class="material-symbols-outlined">
@@ -436,7 +434,7 @@
                                 <a href="#">Socks</a>
                             </li>
                         </ul>
-                    </li>
+                    </li> --}}
                 </ul>
             </li>
             <!-- Kids section -->
@@ -588,6 +586,88 @@
             <!-- Collections section -->
         </ul>
     </div>
-
     <div class="grid"><a class="btn11" href="{{ url('contact') }}">Free Consultation</a></div>
+
+
+
+    {{-- mobile menu start --}}
+    <div class="mobilemenu">
+<div class="dsn-nav-bar">
+<div class="site-header">
+    <div class="extend-container">
+        <div class="inner-header">
+            <div class="main-logo">
+                <a href="index.html">
+                    <img class="dark-logo" src="{{asset('user-assets/img/logo/acslogo.svg')}}" alt="">
+                    <img class="light-logo" src="{{asset('user-assets/img/logo/acslogo.svg')}}" alt="">
+                </a>
+            </div>
+        </div>
+        <nav class=" accent-menu main-navigation">
+            <ul class="extend-container">
+                <li class="">
+                    <a href="{{url('/')}}">Home</a>
+
+                </li>
+
+
+                <li class="custom-drop-down">
+                    <a href="{{url('services')}}">Our Services</a>
+                    <ul>
+                        <li><a href="{{url('services')}}">All Services</a></li>
+                        <li><a href="{{url('business-consultancy')}}">Business Consultancy</a></li>
+                        <li><a href="{{url('services')}}">Marketing Solutions
+                        </a></li>
+                        <li><a href="{{url('services')}}">IT Solutions </a></li>
+                    </ul>
+                </li>
+
+
+                <li><a href="{{url('work')}}">Work </a></li>
+
+                <li class="">
+                    <a href="{{url('about')}}">About Us</a>
+
+                </li>
+                <li class="">
+                    <a href="{{url('contact')}}">Free Consultation us </a>
+
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+</div>
+<div class="header-top header-top-hamburger">
+    <div class="header-container">
+        <div class="menu-icon" data-dsn="parallax" data-dsn-move="5">
+            <div class="icon-m">
+                <i class="menu-icon-close fas fa-times"></i>
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+
+            <div class="text-menu">
+                <div class="text-button">Menu</div>
+                <div class="text-open">Open</div>
+                <div class="text-close">Close</div>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="inner">
+                <div class="nav__content">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+</div>
+    {{-- mobile menu end --}}
+
+<!-- End Nav Bar -->
+    {{-- <div class="grid"><a class="btn11" href="{{ url('contact') }}">Free Consultation</a></div> --}}
 </nav>

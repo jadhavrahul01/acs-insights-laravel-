@@ -116,7 +116,7 @@
 
 
 
-<nav style="background: #000000" class="navbar">
+<nav style="background: #000000;z-index: 1000;" class="navbar">
 
     <a href="/"> <img style="margin: 20px 0 20px 0; width:110px;" class="dark-logo"
             src="{{ asset('user-assets/img/logo/acslogo.svg') }}" alt=""></a>
@@ -630,7 +630,7 @@
 
                 </li>
                 <li class="">
-                    <a href="{{url('contact')}}">Free Consultation us </a>
+                    <a href="{{url('contact')}}">Free Consultation</a>
 
                 </li>
 

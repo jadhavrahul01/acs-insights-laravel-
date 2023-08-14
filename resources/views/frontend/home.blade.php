@@ -593,12 +593,12 @@
                                     <h5>Web , Brand</h5>
 
                                     <div class="cta">
-                                        <a href="Exploring the Future of AI -  Advancements, Challenges, and Impact on Society.html">Exploring the Future of AI -
+                                        <a class="blog-head" href="Exploring the Future of AI -  Advancements, Challenges, and Impact on Society.html">Exploring the Future of AI -
                                             Advancements, Challenges, and Impact on Society
                                             </a>
                                     </div>
 
-                                    <p>Simple point-and-shoot digital cameras can give surprising quality when they
+                                    <p class="blog-content" >Simple point-and-shoot digital cameras can give surprising quality when they
                                         have the right lenses and sensors.</p>
 
                                 </div>
@@ -613,10 +613,10 @@
                                     <h5>Web , Brand</h5>
 
                                     <div class="cta">
-                                        <a href="Effective Social Media Marketing- Tips and Best Practices.html">Effective Social Media Marketing- Tips and Best Practices</a>
+                                        <a class="blog-head" href="Effective Social Media Marketing- Tips and Best Practices.html">Effective Social Media Marketing- Tips and Best Practices</a>
                                     </div>
 
-                                    <p>Simple point-and-shoot digital cameras can give surprising quality when they
+                                    <p class="blog-content">Simple point-and-shoot digital cameras can give surprising quality when they
                                         have the right lenses and sensors.</p>
                                 </div>
                             </div>
@@ -630,10 +630,10 @@
                                     <h5>Web , Brand</h5>
 
                                     <div class="cta">
-                                        <a href="Simplifying Web, CMS, and App Development with Low-Code Development">Simplifying Web, CMS, and App Development with Low-Code Development</a>
+                                        <a class="blog-head" href="Simplifying Web, CMS, and App Development with Low-Code Development">Simplifying Web, CMS, and App Development with Low-Code Development</a>
                                     </div>
 
-                                    <p>Simple point-and-shoot digital cameras can give surprising quality when they
+                                    <p class="blog-content">Simple point-and-shoot digital cameras can give surprising quality when they
                                         have the right lenses and sensors.</p>
 
                                 </div>

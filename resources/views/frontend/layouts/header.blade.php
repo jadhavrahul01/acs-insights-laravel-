@@ -3,7 +3,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="discrption" content="Welcome to ACS Insights, India's leading provider of business strategy, analytics, marketing solutions, and IT solutions. Unlock your business's true potential with our data-driven insights, strategic guidance, and expert services. Our dedicated team collaborates closely with you to develop tailored solutions that drive growth, enhance profitability, and ensure long-term success. Discover how ACS Insights can empower your business to thrive in today's dynamic marketplace.">
     <meta name="keyword" content="agency, business, corporate, creative, freelancer, interior, joomla template, K2 Blog, minimal, modern, multipurpose, personal, portfolio, responsive, simple">
-
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script>
+   
     <!--  Title -->
     <title>ACS Insights - India's Leading Business Strategy, Analytics, and Consulting Services | Unlocking Business Potential</title>
 

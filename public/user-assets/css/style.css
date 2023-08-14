@@ -2988,7 +2988,7 @@ a:active {
 ## Menus
 --------------------------------------------------------------*/
 /** === Main menu === */
-.dsn-nav-bar > .header-top > .header-container,
+/* .dsn-nav-bar > .header-top > .header-container,
 .dsn-nav-bar .site-header {
   -webkit-transition: 0.5s ease-in-out;
   -o-transition: 0.5s ease-in-out;
@@ -2999,7 +2999,7 @@ a:active {
 .dsn-nav-bar.nav-bg .site-header {
   padding-bottom: 15px;
   padding-top: 15px;
-  background-color: #000;
+  background-color: transparent;
 }
 
 .dsn-nav-bar.hide-nave > .header-top > .header-container,
@@ -3007,7 +3007,7 @@ a:active {
   -webkit-transform: translateY(-100px);
   -ms-transform: translateY(-100px);
   transform: translateY(-100px);
-}
+} */
 
 .site-header {
   display: block;
@@ -3247,7 +3247,7 @@ body.hamburger-menu .header-top {
 -------------------------------------------------------- */
 .dsn-nav-bar {
   position: absolute;
-  z-index: 999;
+  /* z-index: 999; */
   width: 100%;
 }
 

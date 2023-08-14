@@ -91,7 +91,7 @@
         <div class="copyright">
             <div class="text-center">
 
-             <div class="copright-text over-hidden">    <span>© 2023</span> <a class="link-hover" data-hover-text="DSN Grid" href="#" target="_blank">Arise Consultancy Services</a>
+             <div class="copright-text over-hidden"><span>© 2023</span> <a class="link-hover" data-hover-text="DSN Grid" href="#" target="_blank">Arise Consultancy Services</a>
                 </div>
             </div>
         </div>

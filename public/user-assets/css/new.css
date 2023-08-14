@@ -1221,10 +1221,374 @@ button {
   background: #e73700;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slide-container{
+    max-width: 1473px;
+    width: 100%;
+    padding: 40px 0;
+  }
+  .slide-content{
+        margin: 0 161px;
+    overflow: hidden;
+    border-radius: 25px;
+  }
+  .card1{
+    border-radius: 25px;
+    background-color: #FFF;
+  }
+  .image-content,
+  .card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+  }
+  .image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+  }
+  .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #00ef5d;
+    border-radius: 25px 25px 0 25px;
+  }
+  /* .overlay::before,
+  .overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #4070F4;
+  } */
+  /* .overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+  } */
+  .card-image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+  }
+
+
+  .blog-row{
+    display: flex;
+  }
+  .card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #00ef5d;
+  }
+  .name{
+    font-size: 28px;
+    font-weight: 500;
+    color: #ffffff;
+  }
+  .description{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+  }
+  .button{
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #00ef5d;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button:hover{
+    background: #00ef5d;
+  }
+
+  .swiper-navBtn{
+    color: #00ef5d!important;
+    transition: color 0.3s ease;
+  }
+  .swiper-navBtn:hover{
+    color: #00ef5d;
+  }
+  .swiper-navBtn::before,
+  .swiper-navBtn::after{
+    font-size: 35px;
+  }
+  .swiper-button-next{
+    right: 0;
+  }
+  .swiper-button-prev{
+    left: 0;
+  }
+  .swiper-pagination-bullet{
+    background-color: #00ef5d;
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active{
+    background-color: #00ef5d;
+  }
+
+  @media screen and (max-width: 768px) {
+    .slide-content{
+      margin: 0 10px;
+    }
+    .card1{
+        width: 255px!important;
+    }
+    .swiper-wrapper{
+        transform: translate3d(-1428.5px, 0px, 0px);
+    }
+    .swiper-navBtn{
+      display: none;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.heading {
+    background: rgb(0, 0, 0);
+    height: 5%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .swiper-container {
+    width: 100%;
+    height: 90%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    background: #000000;
+    /* Center slide text vertically */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-general {
+    padding: 75px 0;
+    margin: 0 auto;
+    width: 1200px;
+  }
+  .container-general .gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+  }
+  .container-general .gallery-wrap .item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: all 0.8s ease;
+  }
+  .container-general .gallery-wrap .item:hover {
+    flex: 7;
+  }
+
+  .wrap-effect-1 .item:first-of-type {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/4185141/galshir-cactus-coffee.png");
+  }
+  .wrap-effect-1 .item:nth-of-type(2) {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/6146136/galshir-tea-biscuit_2x.png");
+  }
+  .wrap-effect-1 .item:nth-of-type(3) {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/4473482/galshir-dog-walker.gif");
+  }
+  .wrap-effect-1 .item:nth-of-type(4) {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/5743606/gal-shir-scooter_2x.png");
+  }
+  .wrap-effect-1 .item:last-of-type {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/4738104/galshir-storytime.png");
+  }
+
+  .wrap-effect-2 .item:hover {
+    transform: translate3d(0, 0, 100px);
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    filter: saturate(2) contrast(120%);
+  }
+  .wrap-effect-2 .item:first-of-type {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/4854597/galshir-umbrella.jpg");
+  }
+  .wrap-effect-2 .item:nth-of-type(2) {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/4776189/galshir-genesis.png");
+  }
+  .wrap-effect-2 .item:nth-of-type(3) {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/5329211/galshir-walking.gif");
+  }
+  .wrap-effect-2 .item:nth-of-type(4) {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/4611698/galshir-paper-boat.png");
+  }
+  .wrap-effect-2 .item:last-of-type {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/4544774/galshir-window.png");
+  }
+
+  .wrap-effect-3 .item:hover {
+    animation: rotate 0.7s ease-in-out both;
+    border-radius: 10px;
+    border: 1px solid gray;
+  }
+  .wrap-effect-3 .item:first-of-type {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/5947483/galshir-wind_2x.png");
+  }
+  .wrap-effect-3 .item:nth-of-type(2) {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/5754705/galshir-rain_2x.png");
+  }
+  .wrap-effect-3 .item:nth-of-type(3) {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/5355160/galshir-attack.gif");
+  }
+  .wrap-effect-3 .item:nth-of-type(4) {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/4742049/galshir-samurai.png");
+  }
+  .wrap-effect-3 .item:last-of-type {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/5594777/galshir-winter-cycling_2x.jpg");
+  }
+
+  .wrap-effect-4 .item:hover {
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    filter: saturate(2) contrast(120%);
+  }
+  .wrap-effect-4 .item:first-of-type {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/4226693/galshir-iphone-x-lemonade.gif");
+  }
+  .wrap-effect-4 .item:nth-of-type(2) {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/4475663/galshir-musical-instruments.gif");
+  }
+  .wrap-effect-4 .item:nth-of-type(3) {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/5431797/galshir-lemonade-ring.gif");
+  }
+  .wrap-effect-4 .item:nth-of-type(4) {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/4419736/galshir-lemonade-bike.gif");
+  }
+  .wrap-effect-4 .item:last-of-type {
+    background-image: url("https://cdn.dribbble.com/users/729829/screenshots/4281500/galshir-lemonade-camera.gif");
+  }
+
+  .inspire {
+    border: 1px solid rgba(22, 76, 167, 0.6);
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+  }
+  .inspire:after {
+    background: #38ef7d;
+    content: "";
+    height: 155px;
+    left: -75px;
+    opacity: 0.4;
+    position: absolute;
+    top: -50px;
+    transform: rotate(35deg);
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+    width: 50px;
+    z-index: -10;
+  }
+  .inspire:hover:after {
+    left: 120%;
+    transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+    25% {
+      transform: rotate(10deg) translate3d(0, 0, 0);
+    }
+    50% {
+      transform: rotate(-10deg) translate3d(0, 0, 0);
+    }
+    75% {
+      transform: rotate(5deg) translate3d(0, 0, 0);
+    }
+    100% {
+      transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 /******* Middle section CSS Start ******/
 /* -------- Landing page ------- */
 .game-section {
- padding: 60px 229px;
+ padding: 60px 1px;
 }
 .game-section .owl-stage {
   margin: 15px 0;
@@ -1313,10 +1677,15 @@ button {
     padding: 50px 30px;
   }
   .game-section .item {
+    margin: 0 10px 40px;
+    width: 239px;
+    height: 280px;
+}
+  /* .game-section .item {
     margin: 0 12px 60px;
     width: 260px;
     height: 360px;
-  }
+  } */
   .game-section .item.active {
     width: 400px;
   }
@@ -1581,6 +1950,15 @@ width: 428px;
     font-size: 19px!important;
   }
 
+  .blog-size{
+    width: 100%;
+  }
+
+  .blog-row{
+    display: flex;
+    flex-direction: column;
+  }
+
   .blog-content{
     font-size: 12px;
   }
@@ -1683,3 +2061,4 @@ width: 428px;
   width: 344px;
 }
 }
+

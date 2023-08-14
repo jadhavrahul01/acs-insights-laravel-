@@ -281,7 +281,16 @@
                     </li>
                 </ul> --}}
             </li>
-            <!-- Women section -->
+            <li class="dropdown">
+                <div>
+                    <a href="{{ url('about') }}">About Us</a>
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
+                </div>
+
+            </li>
+
             <li class="dropdown">
                 <div class="dropdown-li">
                     <a href="{{ url('services') }}">Our Services</a>
@@ -438,9 +447,9 @@
                 </ul>
             </li>
             <!-- Kids section -->
-            <li class="dropdown">
+            {{-- <li class="dropdown">
                 <div>
-                    <a href="{{ url('work') }}">Work</a>
+                    <a href="{{ url('#') }}">Work</a>
                     <span class="material-symbols-outlined">
                         chevron_right
                     </span>
@@ -572,11 +581,21 @@
                         </ul>
                     </li>
                 </ul>
-            </li>
-            <!-- Sales section -->
+            </li> --}}
             <li class="dropdown">
                 <div>
-                    <a href="{{ url('about') }}">About</a>
+                    <a href="{{ url('blog') }}">Blogs</a>
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
+                </div>
+
+            </li>
+            <!-- Sales section -->
+
+            <li class="dropdown">
+                <div>
+                    <a href="{{ url('contact') }}">Contact Us</a>
                     <span class="material-symbols-outlined">
                         chevron_right
                     </span>
@@ -616,17 +635,22 @@
                     <ul>
                         <li><a href="{{url('services')}}">All Services</a></li>
                         <li><a href="{{url('business-consultancy')}}">Business Consultancy</a></li>
-                        <li><a href="{{url('services')}}">Marketing Solutions
+                        <li><a href="{{url('marketing-solution')}}">Marketing Solutions
                         </a></li>
-                        <li><a href="{{url('services')}}">IT Solutions </a></li>
+                        <li><a href="{{url('it-solution')}}">IT Solutions </a></li>
                     </ul>
                 </li>
 
 
-                <li><a href="{{url('work')}}">Work </a></li>
+                {{-- <li><a href="{{url('#')}}">Work </a></li> --}}
+                <li><a href="{{url('blog')}}">Blogs </a></li>
 
                 <li class="">
                     <a href="{{url('about')}}">About Us</a>
+
+                </li>
+                <li class="">
+                    <a href="{{url('contact')}}">Contact Us</a>
 
                 </li>
                 <li class="">

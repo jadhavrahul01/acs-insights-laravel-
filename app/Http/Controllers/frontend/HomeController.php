@@ -35,6 +35,24 @@ class HomeController extends Controller
     {
         return view('frontend.marketing-solution');
     }
+    public function blog()
+    {
+        return view('frontend.blog');
+    }
+
+
+    public function effectivesocialmedia()
+    {
+        return view('frontend.effective-social-media-marketing-tips');
+    }
+    public function exploringthefutureofAI()
+    {
+        return view('frontend.exploring-the-future-of-AI');
+    }
+    public function simplifyingwebcmsappdevelopment()
+    {
+        return view('frontend.simplifying-web-cms,app-development');
+    }
 
 
 }

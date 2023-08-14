@@ -6,7 +6,7 @@
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css'><link rel="stylesheet" href="./style.css">
 <section class="intro-about section-margin">
     <div style="background-position: center;
-    background-size: cover;" data-image-src="{{ asset('user-assets/img/banner/it-solutions-hero-banner.jpg') }}" data-overlay="6"
+    background-size: cover;" data-image-src="{{ asset('user-assets/img/banner/it-solutions-hero-banner.jpg') }}" data-overlay="8"
         class="header-hero header-hero-2 ">
         <div class="container h-100">
             <div class="row align-items-center h-100">
@@ -30,7 +30,7 @@
 
 
 
-<section class="game-section">
+<section class="container game-section">
 
     <div class="owl-carousel custom-carousel owl-theme">
       <div class="item active" style="background-image: url(https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=1380&t=st=1691845099~exp=1691845699~hmac=8f6ad3a6c923d17723040b39a5124d39f94bd790dbc63987c5c955549f1e2125);">
@@ -57,6 +57,12 @@
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi asperiores maiores distinctio illo, necessitatibus commodi odit modi a magnam! Id?</p>
         </div>
       </div>
+      <div class="item" style="background-image: url(https://img.freepik.com/free-photo/workers-it-company-working-computer_1303-19448.jpg?size=626&ext=jpg&ga=GA1.2.993756276.1691513559&semt=ais);">
+        <div class="item-desc">
+          <h3>service slider</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi asperiores maiores distinctio illo, necessitatibus commodi odit modi a magnam! Id?</p>
+        </div>
+      </div>
 
     </div>
     </div>
@@ -67,7 +73,6 @@
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script><script  src="./script.js"></script>
   {{-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script> --}}
-  
 
 
 

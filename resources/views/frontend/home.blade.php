@@ -23,12 +23,15 @@
                                         <div class="title-text-header-inner">
 
                                             <a href="{{url('/')}}" class="effect-ajax" data-dsn-ajax="slider">
-                                              Transform. Engage. Succeed
+                                                Marketing Solutions
                                             </a>
 
                                         </div>
                                     </div>
-                                    <p>Fueling your online success with targeted strategies and measurable results.</p>
+                                    <p>"Elevate your brand with tailored
+                                        marketing solutions that captivate and
+                                        convert."
+                                        </p>
                                     <div class="link-custom">
                                         <a href="{{url('contact')}}"class="image-zoom effect-ajax" data-dsn="parallax" data-dsn-ajax="slider">
                                             <span>Get In Touch</span>
@@ -47,21 +50,20 @@
                             <div class="slide-content">
                                 <div class="slide-content-inner">
                                     <div class="project-metas">
-                                        <div class="project-meta-box project-work cat">
+                                        {{-- <div class="project-meta-box project-work cat">
                                             <span>Architecture</span>
-                                        </div>
+                                        </div> --}}
                                     </div>
 
                                     <div class="title-text-header">
                                         <div class="title-text-header-inner">
                                             <a href="project-5.html" class="effect-ajax" data-dsn-ajax="slider">
-                                                Novara Conic
+                                                IT Solutions
                                             </a>
                                         </div>
                                     </div>
 
-                                    <p>Cal was first. The first public university in the great state
-                                        of California. They are the pioneers.</p>
+                                    <p>"Navigating your digital transformation with innovative IT solutions."</p>
 
                                     <div class="link-custom">
                                         <a href="project-5.html" class="image-zoom effect-ajax" data-dsn="parallax" data-dsn-ajax="slider">
@@ -81,21 +83,20 @@
                             <div class="slide-content">
                                 <div class="slide-content-inner">
                                     <div class="project-metas">
-                                        <div class="project-meta-box project-work cat">
+                                        {{-- <div class="project-meta-box project-work cat">
                                             <span>Architecture</span>
-                                        </div>
+                                        </div> --}}
                                     </div>
 
                                     <div class="title-text-header">
                                         <div class="title-text-header-inner">
                                             <a href="project-5.html" class="effect-ajax" data-dsn-ajax="slider">
-                                                Novara Conic
+                                                Business Consultancy
                                             </a>
                                         </div>
                                     </div>
 
-                                    <p>Cal was first. The first public university in the great state
-                                        of California. They are the pioneers.</p>
+                                    <p>"Empowering your success through strategic business consultancy."</p>
 
                                     <div class="link-custom">
                                         <a href="project-5.html" class="image-zoom effect-ajax" data-dsn="parallax" data-dsn-ajax="slider">
@@ -106,8 +107,8 @@
                                 </div>
                             </div>
                             <div class="image-container">
-                                <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/banner/marketing-hero-banner.jpg')}}" data-overlay="4">
-                                    <img src="{{asset('user-assets/img/banner/marketing-hero-banner.jpg')}}" alt="">
+                                <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/banner/consultancy-hero-banner.jpg')}}" data-overlay="4">
+                                    <img src="{{asset('user-assets/img/banner/consultancy-hero-banner.jpg')}}" alt="">
                                 </div>
                             </div>
                         </div>
@@ -141,7 +142,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="image-container">
-                            <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/banner/marketing-hero-banner.jpg')}}" data-overlay="2">
+                            <div class="image-bg cover-bg" data-image-src="{{asset('user-assets/img/banner/consultancy-hero-banner.jpg')}}" data-overlay="2">
                             </div>
                         </div>
                         <div class="content">
@@ -593,7 +594,7 @@
                                     <h5>Web , Brand</h5>
 
                                     <div class="cta">
-                                        <a class="blog-head" href="Exploring the Future of AI -  Advancements, Challenges, and Impact on Society.html">Exploring the Future of AI -
+                                        <a class="blog-head" href="/exploring-the-future-of-AI">Exploring the Future of AI -
                                             Advancements, Challenges, and Impact on Society
                                             </a>
                                     </div>
@@ -613,7 +614,7 @@
                                     <h5>Web , Brand</h5>
 
                                     <div class="cta">
-                                        <a class="blog-head" href="Effective Social Media Marketing- Tips and Best Practices.html">Effective Social Media Marketing- Tips and Best Practices</a>
+                                        <a class="blog-head" href="/effective-social-media-marketing-tips">Effective Social Media Marketing- Tips and Best Practices</a>
                                     </div>
 
                                     <p class="blog-content">Simple point-and-shoot digital cameras can give surprising quality when they
@@ -630,7 +631,7 @@
                                     <h5>Web , Brand</h5>
 
                                     <div class="cta">
-                                        <a class="blog-head" href="Simplifying Web, CMS, and App Development with Low-Code Development">Simplifying Web, CMS, and App Development with Low-Code Development</a>
+                                        <a class="blog-head" href="/simplifying-web-cms,app-development">Simplifying Web, CMS, and App Development with Low-Code Development</a>
                                     </div>
 
                                     <p class="blog-content">Simple point-and-shoot digital cameras can give surprising quality when they

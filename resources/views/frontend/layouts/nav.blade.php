@@ -610,7 +610,7 @@
 
 
     {{-- mobile menu start --}}
-    <div class="mobilemenu">
+    {{-- <div class="mobilemenu">
 <div class="dsn-nav-bar">
 <div class="site-header">
     <div class="extend-container">
@@ -642,7 +642,6 @@
                 </li>
 
 
-                {{-- <li><a href="{{url('#')}}">Work </a></li> --}}
                 <li><a href="{{url('blog')}}">Blogs </a></li>
 
                 <li class="">
@@ -689,9 +688,92 @@
     </div>
 </div>
 </div>
-</div>
+</div> --}}
     {{-- mobile menu end --}}
+
+
+
+
+
+
+
+
+    <div class="mobilemenu">
+          <div class="menu-button">
+            <div class="menu-button-line"></div>
+            <div class="menu-button-line"></div>
+            <div class="menu-button-line"></div>
+          </div>
+          <nav class="mo-menu">
+            <div class="menu-branding"></div>
+            <ul class="menu-nav">
+              <li class="nav-item">
+                <a class="secondery-color" href="{{url('/')}}">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a href="{{url('about')}}">ABOUT US</a>
+              </li>
+
+         <!-- There are two dropdowns to show multi-menu support -->
+
+{{-- <div class="center">
+    <div class="container">
+
+      <div class="wrapper-dropdown" id="dropdown">
+        <span class="selected-display" id="destination">Pick an option!</span>
+        <svg class="arrow" id="drp-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="transition-all ml-auto rotate-180">
+          <path d="M7 14.5l5-5 5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        <ul class="dropdown">
+          <li class="item">Option 1</li>
+          <li class="item">Option 2</li>
+          <li class="item">Option 3</li>
+          <li class="item">Option 4</li>
+        </ul>
+      </div>
+
+      <br>
+      <div class="wrapper-dropdown" id="dropdown">
+        <span class="selected-display" id="destination">Pick a different option!</span>
+        <svg class="arrow" id="drp-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="transition-all ml-auto rotate-180">
+          <path d="M7 14.5l5-5 5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+        <ul class="dropdown">
+          <li class="item">Special Option 1</li>
+          <li class="item">Special Option 2</li>
+          <li class="item">Special Option 3</li>
+          <li class="item">Special Option 4</li>
+        </ul>
+      </div>
+    </div>
+  </div> --}}
+
+
+
+
+              <li class="nav-item">
+                <a href="{{url('services')}}">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a href="{{url('blog')}}">BLOGS</a>
+              </li>
+              <li class="nav-item">
+                <a href="{{url('contact')}}">CONTACT US</a>
+              </li>
+              <li class="nav-item">
+                <a href="{{url('contact')}}">FREE CONSULTATION</a>
+              </li>
+
+            </ul>
+</div>
+
+
+
+
+</nav>
+
+
 
 <!-- End Nav Bar -->
     {{-- <div class="grid"><a class="btn11" href="{{ url('contact') }}">Free Consultation</a></div> --}}
-</nav>
+

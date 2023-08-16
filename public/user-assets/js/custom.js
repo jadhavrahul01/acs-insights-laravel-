@@ -1,4 +1,133 @@
+$(document).ready(function($) {
+    $('.card-slider').slick({
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: false,
+      autoplaySpeed: 2000,
+      arrows: true,
+      responsive: [{
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+         breakpoint: 400,
+         settings: {
+            arrows: false,
+            slidesToShow: 1,
+            slidesToScroll: 1
+         }
+      }]
+  });
+});
 
+
+
+
+
+
+
+
+
+const menuButton = document.querySelector(".menu-button");
+const menu = document.querySelector(".menu");
+const menuBranding = document.querySelector(".menu-branding");
+const menuNav = document.querySelector(".menu-nav");
+const navItem = document.querySelectorAll(".nav-item");
+
+let showMenu = false;
+
+//initiAL SETUP
+const selectedAll = document.querySelectorAll(".wrapper-dropdown");
+
+selectedAll.forEach((selected) => {
+  const optionsContainer = selected.children[2];
+  const optionsList = selected.querySelectorAll("div.wrapper-dropdown li");
+
+  selected.addEventListener("click", () => {
+    let arrow = selected.children[1];
+
+    if (selected.classList.contains("active")) {
+      handleDropdown(selected, arrow, false);
+    } else {
+      let currentActive = document.querySelector(".wrapper-dropdown.active");
+
+      if (currentActive) {
+        let anotherArrow = currentActive.children[1];
+        handleDropdown(currentActive, anotherArrow, false);
+      }
+
+      handleDropdown(selected, arrow, true);
+    }
+  });
+
+  // update the display of the dropdown
+  for (let o of optionsList) {
+    o.addEventListener("click", () => {
+      selected.querySelector(".selected-display").innerHTML = o.innerHTML;
+    });
+  }
+});
+
+// check if anything else ofther than the dropdown is clicked
+window.addEventListener("click", function (e) {
+  if (e.target.closest(".wrapper-dropdown") === null) {
+    closeAllDropdowns();
+  }
+});
+
+// close all the dropdowns
+function closeAllDropdowns() {
+  const selectedAll = document.querySelectorAll(".wrapper-dropdown");
+  selectedAll.forEach((selected) => {
+    const optionsContainer = selected.children[2];
+    let arrow = selected.children[1];
+
+    handleDropdown(selected, arrow, false);
+  });
+}
+
+// open all the dropdowns
+function handleDropdown(dropdown, arrow, open) {
+  if (open) {
+    arrow.classList.add("rotated");
+    dropdown.classList.add("active");
+  } else {
+    arrow.classList.remove("rotated");
+    dropdown.classList.remove("active");
+  }
+}
+
+
+
+
+//ADD CLASS
+menuButton.addEventListener("click", toggolmenu);
+
+function toggolmenu() {
+  if (!showMenu) {
+    menuButton.classList.add("close");
+    menu.classList.add("show");
+    menuBranding.classList.add("show");
+    menuNav.classList.add("show");
+    navItem.forEach(item => item.classList.add("show"));
+
+    showMenu = true;
+  } else {
+    menuButton.classList.remove("close");
+    menu.classList.remove("show");
+    menuBranding.classList.remove("show");
+    menuNav.classList.remove("show");
+    navItem.forEach(item => item.classList.remove("show"));
+
+    showMenu = false;
+  }
+}
 
 
 

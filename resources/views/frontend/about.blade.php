@@ -10,7 +10,7 @@
                 <div class="container h-100">
                     <div class="row align-items-center h-100">
                         <div  class="col-lg-12">
-                            <div class="contenet-hero">
+                            <div style="padding: 160px 0px 50px 0px" class="contenet-hero">
                                 <h1>Connecting Brands to Customers…</h1>
                                 <p>Building strong connections between brands and their target customers through data-driven digital marketing approaches.</p>
                                 <a href="#" class="view-case scroll-down scroll-to">Scroll Down <img src="assets/img/arrow-right-wight.png" alt=""></a>
@@ -190,7 +190,7 @@
 
 
 
-                <section class="our-services section-margin">
+                <section style="margin: 100px 0px 10px 0px;" class="our-services">
                     <div class="container">
                         {{-- <div class="one-title dsn-active" data-dsn-animate="up"> --}}
                         <div class="content-ab" data-dsn-animate="up">
@@ -258,7 +258,7 @@
 
             </div>
 
-            <section class="client-see section-margin">
+            <section style="margin-top: 37px;" class="client-see section-margin">
                 <div class="container">
                     <div class="inner">
                         <div class="left">

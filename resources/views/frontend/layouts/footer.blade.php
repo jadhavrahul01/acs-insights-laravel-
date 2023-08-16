@@ -67,7 +67,7 @@
                                 <li><a href="tel:+91 8390194975">+91 8390194975</a>
                                 </li>
                                 <li><a href="tel:+91 9145455019">+91 9145455019</a></li>
-                                <li><a style="text-transform: lowercase;" href="mailto:info@acsinsights.com">info@acsinsights.com</a></li>
+                                <li><a style="text-transform: lowercase;" href="mailto:info@acsinsights.com">hello@acsinsights.com</a></li>
 
                                 </li>
                             </ul>

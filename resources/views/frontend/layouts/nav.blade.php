@@ -1,3 +1,5 @@
+
+
 <div class="preloader">
     <div class="preloader-after"></div>
     <div class="preloader-before"></div>
@@ -312,13 +314,13 @@
                         </div>
                         <ul class="sub-menu">
                             <li>
-                                <a href="{{ url('business-consultancy')}}">Business Consultancy</a>
+                                <a href="{{ url('business-consultancy') }}">Business Consultancy</a>
                             </li>
                             <li>
-                                <a href="{{ url('marketing-solution')}}">Marketing Solution</a>
+                                <a href="{{ url('marketing-solution') }}">Marketing Solution</a>
                             </li>
                             <li>
-                                <a href="{{ url('it-solution')}}">IT Solution</a>
+                                <a href="{{ url('it-solution') }}">IT Solution</a>
                             </li>
 
                         </ul>
@@ -699,24 +701,28 @@
 
 
     <div class="mobilemenu">
-          <div class="menu-button">
+
+        {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+        <div class="menu-button">
             <div class="menu-button-line"></div>
             <div class="menu-button-line"></div>
             <div class="menu-button-line"></div>
-          </div>
-          <nav class="mo-menu">
+        </div>
+        <nav class="mo-menu">
             <div class="menu-branding"></div>
             <ul class="menu-nav">
-              <li class="nav-item">
-                <a class="secondery-color" href="{{url('/')}}">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a href="{{url('about')}}">ABOUT US</a>
-              </li>
+                <li class="nav-item">
+                    <a class="secondery-color" href="{{ url('/') }}">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url('about') }}">ABOUT US</a>
+                </li>
 
-         <!-- There are two dropdowns to show multi-menu support -->
+                <!-- There are two dropdowns to show multi-menu support -->
 
-{{-- <div class="center">
+                {{-- <div class="center">
     <div class="container">
 
       <div class="wrapper-dropdown" id="dropdown">
@@ -751,21 +757,72 @@
 
 
 
-              <li class="nav-item">
-                <a href="{{url('services')}}">SERVICES</a>
-              </li>
-              <li class="nav-item">
-                <a href="{{url('blog')}}">BLOGS</a>
-              </li>
-              <li class="nav-item">
-                <a href="{{url('contact')}}">CONTACT US</a>
-              </li>
-              <li class="nav-item">
-                <a href="{{url('contact')}}">FREE CONSULTATION</a>
-              </li>
+                {{-- <li class="nav-item">
+                <a href="{{url('services')}}">SERVICES</a> --}}
+
+                {{-- <li class="custom-drop-down">
+                    <a href="{{url('services')}}">Our Services</a>
+                    <ul>
+
+                        <li><a href="{{url('business-consultancy')}}">Business Consultancy</a></li>
+                        <li><a href="{{url('marketing-solution')}}">Marketing Solutions
+                        </a></li>
+                        <li><a href="{{url('it-solution')}}">IT Solutions </a></li>
+                    </ul>
+
+              </li>  --}}
+{{--
+                <li class="dropdown">
+
+
+
+                    <a href="{{ url('services') }}" class="dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Action</a>
+                        <a href="#" class="dropdown-item">Another action</a>
+                    </div>
+
+
+                </li> --}}
+
+
+
+                <li class="nav-item">
+                <label class="dropdown">
+
+                    <div class="dd-button">
+                        <a href="{{ url('services') }}">Services</a><span>&#8595;</span>
+
+                    </div>
+
+                    <input type="checkbox" class="dd-input" id="test">
+
+                    <ul class="dd-menu">
+                        <li><a href="{{url('business-consultancy')}}">Business Consultancy</a></li>
+                        <li><a href="{{url('marketing-solution')}}">Marketing Solutions
+                        </a></li>
+                        <li><a href="{{url('it-solution')}}">IT Solutions </a></li>
+
+                    </ul>
+
+                  </label>
+                </li>
+
+
+
+
+                <li class="nav-item">
+                    <a href="{{ url('blog') }}">BLOGS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url('contact') }}">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url('contact') }}">FREE CONSULTATION</a>
+                </li>
 
             </ul>
-</div>
+    </div>
 
 
 
@@ -775,5 +832,4 @@
 
 
 <!-- End Nav Bar -->
-    {{-- <div class="grid"><a class="btn11" href="{{ url('contact') }}">Free Consultation</a></div> --}}
-
+{{-- <div class="grid"><a class="btn11" href="{{ url('contact') }}">Free Consultation</a></div> --}}

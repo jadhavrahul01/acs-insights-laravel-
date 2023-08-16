@@ -1123,7 +1123,7 @@ a {
     }
     .dropdown:hover > div,
     .sub-dropdown:hover > div {
-        background: #dbdbdb;
+        background: transparent;
     }
     /* Hide menu */
     .menu-container {
@@ -1622,9 +1622,9 @@ svg {
     border-bottom: none;
 }
 
-.dropdown {
+/* .dropdown {
     padding: 0.5rem !important;
-}
+} */
 
 .wrapper-dropdown .dropdown li:hover {
     background-color: rgb(35, 40, 49);
@@ -2112,6 +2112,9 @@ svg {
         border: 2px solid;
         padding: 10px;
     }
+    .mobilemenu{
+        display: none;
+    }
     .mobile-sec{
         display: none;
     }
@@ -2130,6 +2133,9 @@ svg {
         border: 2px solid;
         padding: 10px;
     }
+        .mobilemenu{
+        display: none;
+    }
     .mobile-foot{
         display: none;
     }
@@ -2140,6 +2146,30 @@ svg {
         margin: 0 168px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (min-width: 500px) and (max-width: 950px) {
     .spacing {
@@ -2159,6 +2189,125 @@ svg {
 }
 
 @media only screen and (min-width: 200px) and (max-width: 500px) {
+
+
+
+
+
+
+
+    a {
+        text-decoration: none;
+        color: #ffffff;
+      }
+
+      a:hover {
+        color: #ffffff
+      }
+     
+      span {
+        content: "\2192";
+      }
+      /* Dropdown */
+
+      .dropdown {
+        display: inline-block;
+        position: relative;
+        margin-bottom: 1px!important;
+      }
+
+      .dd-button {
+        display: inline-block;
+        border: 1px solid #1b1b1b;
+        border-radius: 4px;
+        padding: 0px 0px 0px 0px!important;
+        background-color: #1b1b1b;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      .dd-button:after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        transform: translateY(-50%);
+        width: 0;
+        height: 0;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #1b1b1b;
+      }
+
+      .dd-button:hover {
+        background-color: #1b1b1b;
+      }
+
+
+      .dd-input {
+        display: none;
+      }
+
+      .dd-menu {
+        position: absolute;
+        top: 100%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        padding: 0;
+        margin: 2px 0 0 0;
+        box-shadow: 0 0 6px 0 rgba(0,0,0,0.1);
+        background-color: #000000;
+        list-style-type: none;
+      }
+
+      .dd-input + .dd-menu {
+        display: none;
+      }
+
+      .dd-input:checked + .dd-menu {
+        display: block;
+      }
+
+      .dd-menu li {
+        padding: 10px 20px;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      .dd-menu li:hover {
+        background-color: #000000;
+      }
+
+      .dd-menu li a {
+        display: block;
+        margin: -10px -20px;
+        padding: 10px 20px;
+      }
+
+      .dd-menu li.divider{
+        padding: 0;
+        border-bottom: 1px solid #cccccc;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     .who-row {
         flex-direction: column;
         gap: 30px;

@@ -172,7 +172,7 @@
                 </div>
 
                 <section class="footer-slid" id="descover-holder">
-                    <div class="main-social">
+                    {{-- <div class="main-social">
                         <div class="social-icon">
                             <div class="social-btn">
                                 <div class="svg-wrapper">
@@ -206,7 +206,7 @@
                                 </a>
                             </li>
                         </ul>
-                    </div>
+                    </div> --}}
 
                     <div class="control-num">
                         <span class="sup active">01</span>
@@ -267,7 +267,7 @@
                                         <img src="{{ asset('user-assets/img/services/3.png') }}" alt="">
                                     </div>
                                     <div class="services-header">
-                                        <h3>Business Consultancy</h3>
+                                        <h3>Business <br> Consultancy</h3>
                                     </div>
                                     <p>Gain strategic insights and grow your company sustainably with our <br> business
                                         consultancy services.</p>
@@ -335,11 +335,11 @@
                             </span>
                         </div>
                         <div class="mb-20 secondline">
-                            <span class="text-center hiring"">
+                            <span style="font-size:3.3rem;" class="text-center hiring"">
                                 Why work with us
                             </span>
                         </div>
-                        <div class="fz-20 secondline">
+                        <div style="font-size: 1rem;" class="fz-20 secondline">
                             <span class="text-center hiring"">
                                 Tap into our deep industry knowledge, innovative techniques, and meticulous attention <br>
                                 to detail to accelerate your online growth.
@@ -707,7 +707,7 @@
 
 
 
-                  {{-- desktop section start --}}
+                {{-- desktop section start --}}
                 <section class="desktop-sec brand-client section-margin">
                     <div class="container">
                         <div class="one-title" data-dsn-animate="up">
@@ -756,7 +756,7 @@
                     </div>
 
                 </section>
-     {{-- desktop section end --}}
+                {{-- desktop section end --}}
 
 
 
@@ -792,12 +792,12 @@
                             </div>
                         </div>
                         <div class="wapper-client1 wapper-client ">
-                        <div class="col-3 logo-box logo-box1">
-                            <img src="{{ asset('user-assets/img/logo/yosh-group.png') }}" alt="">
-                        </div>
-                        <div class="col-3 logo-box logo-box1">
-                            <img src="{{ asset('user-assets/img/logo/ariel-client.png') }}" alt="">
-                         </div>
+                            <div class="col-3 logo-box logo-box1">
+                                <img src="{{ asset('user-assets/img/logo/yosh-group.png') }}" alt="">
+                            </div>
+                            <div class="col-3 logo-box logo-box1">
+                                <img src="{{ asset('user-assets/img/logo/ariel-client.png') }}" alt="">
+                            </div>
                         </div>
 
                         <div class="wapper-client1 wapper-client ">
@@ -805,9 +805,9 @@
                                 <img src="{{ asset('user-assets/img/logo/cracked-bycar-dekho.png') }}" alt="">
                             </div>
 
-                        <div class="col-3 logo-box logo-box1">
-                            <img src="{{ asset('user-assets/img/logo/tmt-client.png') }}" alt="">
-                        </div>
+                            <div class="col-3 logo-box logo-box1">
+                                <img src="{{ asset('user-assets/img/logo/tmt-client.png') }}" alt="">
+                            </div>
                         </div>
                         <div class="wapper-client1 wapper-client ">
 
@@ -820,7 +820,7 @@
                     </div>
 
                 </section>
-     {{-- mobile section end --}}
+                {{-- mobile section end --}}
 
 
 
@@ -856,7 +856,7 @@
                                     Free Business Plan</span></button></a>
                     </div>
                     <!-- <div class="pop-up-btn">
-                    <button onclick="togglePopup()" class="mt-100 first-button image-zoom effect-ajax" data-dsn-ajax="slider"><span>Get a Free Business Plan</span></button></div> -->
+                        <button onclick="togglePopup()" class="mt-100 first-button image-zoom effect-ajax" data-dsn-ajax="slider"><span>Get a Free Business Plan</span></button></div> -->
                     <div class="secondline">
 
 

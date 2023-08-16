@@ -1349,7 +1349,7 @@ button {
     transition: 0.9s;
 }
 .menu-button-line {
-    height: 5px;
+    height: 3px;
     width: 40px;
     margin-bottom: 5px;
     background: #ffffff;
@@ -2166,7 +2166,13 @@ svg {
     .design-section {
         padding: 60px 0 10px 0;
     }
+    .row12 {
+        margin-bottom: 10px;
+    }
 
+.mo-ser-row{
+    flex-direction: column-reverse;
+}
     .brand-client .wapper-client .logo-box img {
         max-width: 150px!important;
         width: 150px;

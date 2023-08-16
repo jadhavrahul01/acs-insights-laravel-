@@ -17,9 +17,9 @@
                 </div>
             </header>
 
-            <div class="col-12  wrapper">
+            <div style="padding: 0 1px 0 1px;" class="col-12  wrapper">
                 <div class=" container root-blog">
-                    <div class="blog-row col-12">
+                    <div style="padding: 0 1px 0 1px;" class="blog-row col-12">
                         <div class="col-lg-6 blog-size col-sm-12">
                         <article class="post-list-item">
                             <figure>

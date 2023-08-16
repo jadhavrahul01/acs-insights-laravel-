@@ -6,11 +6,15 @@ $(".custom-carousel").owlCarousel({
     loop: true
   });
   $(document).ready(function () {
-    $(".custom-carousel .item").hover(function () {
-      $(".custom-carousel .item").not($(this)).removeClass("active");
-      $(this).toggleClass("active");
-    });
-  });
+});
+$(".custom-carousel .item").click(function () {
+  $(".custom-carousel .item").not($(this)).removeClass("active");
+  $(this).toggleClass("active");
+});
+$(".custom-carousel .item").hover(function () {
+  $(".custom-carousel .item").not($(this)).removeClass("active");
+  $(this).toggleClass("active");
+});
 
 
 

@@ -1,20 +1,37 @@
 @extends('frontend.layouts.app')
 @section('title', 'acs insights')
 @section('page')
-    <div data-image-src="{{ asset('user-assets/img/project/project6/hero-section.jpg') }}" data-overlay="4"
+    {{-- <div data-image-src="{{ asset('user-assets/img/project/project6/hero-section.jpg') }}" data-overlay="4"
         class="header-hero header-hero-2 ">
         <div class="container h-100">
             <div class="row align-items-center h-100">
                 <div class="text-center col-lg-12">
                     <div class=" contenet-hero">
                         <h1>Our Services</h1>
-                        {{-- <p>Building strong connections between brands and their target customers through data-driven digital marketing approaches.</p> --}}
-                        {{-- <a href="#" class="view-case scroll-down scroll-to">Scroll Down <img src="assets/img/arrow-right-wight.png" alt=""></a> --}}
+
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
+    <section class="intro-about section-margin">
+        <div style="background-position: center;
+        background-size: cover;" data-image-src="{{ asset('user-assets/img/project/project6/hero-section.jpg') }}" data-overlay="5"
+            class="header-hero header-hero-2 ">
+            <div class="container h-100">
+                <div class="row align-items-center h-100">
+                    <div class="text-center col-lg-12">
+                        <div class=" contenet-hero">
+                            <h1>Our Services</h1>
+                            </h6>
+                            {{-- <p>Building strong connections between brands and their target customers through data-driven digital marketing approaches.</p> --}}
+                            {{-- <a href="#" class="view-case scroll-down scroll-to">Scroll Down <img src="assets/img/arrow-right-wight.png" alt=""></a> --}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="intro-about section-margin">
         <div class="container">
@@ -56,9 +73,11 @@
         </div>
 
     </section>
+
+
     <section class="intro-about section-margin">
         <div class="container">
-            <div class="row">
+            <div class="mo-ser-row row">
 
                 <div class="col-lg-6">
                     <div class="intro-content-text">
@@ -100,6 +119,9 @@
         </div>
 
     </section>
+
+
+
     <section class="intro-about section-margin">
         <div class="container">
             <div class="row">

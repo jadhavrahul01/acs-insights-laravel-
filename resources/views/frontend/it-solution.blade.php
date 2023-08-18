@@ -29,7 +29,7 @@
 
 
 
-
+{{--
 <section class="container game-section">
     <div class="owl-carousel custom-carousel owl-theme">
       <div class="item active" style="background-image: url(https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?w=1380&t=st=1691845099~exp=1691845699~hmac=8f6ad3a6c923d17723040b39a5124d39f94bd790dbc63987c5c955549f1e2125);">
@@ -69,8 +69,17 @@
 
 
 
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script><script  src="./script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script><script  src="./script.js"></script> --}}
   {{-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script> --}}
+
+
+
+
+
+
+
+
+
 
 
 

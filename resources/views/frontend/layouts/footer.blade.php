@@ -48,10 +48,10 @@
                         <h4 class="footer-title">Policies</h4>
                         <nav>
                             <ul>
-                                <li><a href="#">Privacy Notice</a>
+                                <li><a href="/privacypolicy">Privacy Notice</a>
                                 </li>
-                                <li><a href="#">Security Notice</a></li>
-                                <li><a href="#">Cookie Policy</a></li>
+                                <li><a href="/securitypolicy">Security Notice</a></li>
+                                <li><a href="/cookiepolicy">Cookie Policy</a></li>
 
                                 </li>
                             </ul>
@@ -214,6 +214,9 @@
         </div>
     </div>
 </footer>
+</div>
+</div>
+</main>
 {{-- mobile footer end --}}
 
 

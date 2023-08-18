@@ -3,7 +3,6 @@
 @section('page')
 
 
-
 <main class="main-root">
     <div id="dsn-scrollbar">
         <header>
@@ -68,17 +67,6 @@
 
 
                             </p>
-
-                            <!-- <blockquote class="wp-block-quote">
-                                <p><strong><em>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
-                                            auctor.
-                                            Morbi leo risus,
-                                            porta ac consectetur ac, vestibulum at eros. Curabitulandit Sed posuere
-                                            consectetur
-                                            est at
-                                            lobortis. Donec id elit non mi porta gravida at eget
-                                            metus.</em></strong></p>
-                            </blockquote> -->
                             <p class="para-head-size"><strong>Understanding Low-Code Development
                                 :</strong></p>
                             <p>
@@ -143,135 +131,9 @@
                                 <a href="#">Low-code development has revolutionized the way businesses approach to web, CMS, and app development. By simplifying the development process, businesses can accelerate their growth and stay ahead in today's competitive landscape. Arise Consultancy, with its expertise in website development, branding, advertising, and app development, is well-equipped to help businesses harness the power of low-code development. With their tailored solutions and industry knowledge, Arise Consultancy can be your trusted partner in transforming your digital presence and achieving your business goals.
                                     Remember, whether you need professional website development services or cutting-edge CMS development solutions, Arise Consultancy is here to deliver efficient and effective solutions tailored to your business needs.
                                      </p>
-
-
-
-
-
-
-
                         </div>
                     </div>
 
-                    <!-- <div class="comments-post m-section">
-                        <div class="comments-area section-margin">
-                            <div class="comments-title">
-                                <h4 class="subtitle">Comments</h4>
-                            </div>
-
-                            <ol class="comment-list">
-                                <li class="comment">
-                                    <div class="comment-body">
-                                        <div class="comment-author">
-                                            <img alt="" src="assets/img/avatar/2.jpg">
-                                        </div>
-                                        <div class="comment-text">
-                                            <div class="comment-date">January 23, 2019</div>
-                                            <div class="comment-info">
-                                                <h6 class="comment-name">
-                                                    Diana Torres </h6>
-                                            </div>
-                                            <div class="text-holder">
-                                                <p>Rassa id neque aliquam vestibulum morbi blandit in fermentum et
-                                                    sollicitudin ac orci
-                                                    phasellus egestas tellus velit ut tortor pretium viverra
-                                                    suspendisse
-                                                    potenti nullam ac
-                                                    tortor
-                                                    eu turpis egestas pretium.</p>
-                                            </div>
-                                            <a class="comment-reply-link" href="#"><i class="fas fa-reply"></i>
-                                                reply</a>
-                                        </div>
-                                    </div>
-
-                                    <ul class="children">
-                                        <li class="comment">
-                                            <div class="comment-body">
-                                                <div class="comment-author">
-                                                    <img alt="" src="assets/img/avatar/1.jpg">
-                                                </div>
-                                                <div class="comment-text">
-                                                    <div class="comment-date">January 23, 2019</div>
-                                                    <div class="comment-info">
-                                                        <h6 class="comment-name">
-                                                            Diana Torres </h6>
-                                                    </div>
-                                                    <div class="text-holder">
-                                                        <p>Rassa id neque aliquam vestibulum morbi blandit in
-                                                            fermentum
-                                                            et sollicitudin ac orci
-                                                            phasellus egestas tellus velit ut tortor pretium viverra
-                                                            suspendisse potenti nullam ac
-                                                            tortor
-                                                            eu turpis egestas pretium.</p>
-                                                    </div>
-                                                    <a class="comment-reply-link" href="#"><i class="fas fa-reply"></i>
-                                                        reply</a>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </li>
-
-                                <li class="comment">
-                                    <div class="comment-body">
-                                        <div class="comment-author">
-                                            <img alt="" src="assets/img/avatar/2.jpg">
-                                        </div>
-                                        <div class="comment-text">
-                                            <div class="comment-date">January 23, 2019</div>
-                                            <div class="comment-info">
-                                                <h6 class="comment-name">
-                                                    Diana Torres </h6>
-                                            </div>
-                                            <div class="text-holder">
-                                                <p>Rassa id neque aliquam vestibulum morbi blandit in fermentum et
-                                                    sollicitudin ac orci
-                                                    phasellus egestas tellus velit ut tortor pretium viverra
-                                                    suspendisse
-                                                    potenti nullam ac
-                                                    tortor
-                                                    eu turpis egestas pretium.</p>
-                                            </div>
-                                            <a class="comment-reply-link" href="#"><i class="fas fa-reply"></i>
-                                                reply</a>
-                                        </div>
-                                    </div>
-                                </li>
-
-                            </ol>
-                        </div>
-
-                        <div class="comments-form">
-                            <div class="comments-title">
-                                <h4 class="subtitle">Comments</h4 class="subtitle">
-                            </div>
-
-                            <form>
-                                <div class="entry">
-                                    <label>What's your name?</label>
-                                    <input id="form_name" type="text" name="name" placeholder="Type your name" required="required" data-error="name is required.">
-                                </div>
-
-                                <div class="entry">
-                                    <label>What's your email address?</label>
-                                    <input id="form_email" type="email" name="email" placeholder="Type your Email Address" required="required" data-error="Valid email is required.">
-                                </div>
-
-                                <div class="entry">
-                                    <label>comment?</label>
-                                    <textarea id="" class="form-control" name="message" placeholder="Tell us about you and the world" required="required" data-error="Your comment"></textarea>
-                                </div>
-
-                                <div class="submit-div image-zoom" data-dsn="parallax">
-                                    <input name="submit" type="submit" class="custom-btn" value="submit" data-parallex="">
-                                </div>
-                            </form>
-                        </div>
-
-
-                    </div> -->
 
 
                 </div>
@@ -279,22 +141,9 @@
 
             </div>
 
-            <!-- <section class="contact-up next-post-up section-margin section-padding">
-                <div class="container">
-                    <div class="c-wapp">
-                        <a href="contact.html" class="effect-ajax">
-                            <span class="hiring">
-                                A lovely trip to London
-                            </span>
-                            <span class="career">
-                                Next Post
-                            </span>
-                        </a>
-                    </div>
-                </div>
-            </section> -->
 
-            <footer class="footer">
+
+            {{-- <footer class="footer">
                 <div class="container">
                     <div class="footer-links p-relative">
                         <div class="row">
@@ -392,10 +241,9 @@
                         </div>
                     </div>
                 </div>
-            </footer>
+            </footer> --}}
         </div>
-    </div>
-</main>
+
 
 
 @endsection

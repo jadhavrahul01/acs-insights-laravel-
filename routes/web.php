@@ -26,6 +26,11 @@ Route::get('exploring-the-future-of-AI', [HomeController::class, 'exploringthefu
 Route::get('simplifying-web-cms,app-development', [HomeController::class, 'simplifyingwebcmsappdevelopment']);
 
 
+Route::get('cookiepolicy', [HomeController::class, 'cookiepolicy']);
+Route::get('privacypolicy', [HomeController::class, 'privacypolicy']);
+Route::get('securitypolicy', [HomeController::class, 'securitypolicy']);
+
+
 
 
 

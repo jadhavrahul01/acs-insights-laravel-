@@ -41,7 +41,7 @@
                                 </h4>
 
                                 <div class="link-custom" data-dsn-animate="up">
-                                    <a class="image-zoom effect-ajax" href="/exploring-the-future-of-AI" data-dsn="parallax">
+                                    <a class="image-zoom " href="/exploring-the-future-of-AI" >
                                         <span>Read More</span>
                                     </a>
                                 </div>
@@ -69,7 +69,7 @@
                             </h4>
 
                             <div class="link-custom" data-dsn-animate="up">
-                                <a class="image-zoom effect-ajax" href="/simplifying-web-cms,app-development" data-dsn="parallax">
+                                <a class="image-zoom " href="/simplifying-web-cms,app-development" ">
                                     <span>Read More</span>
                                 </a>
                             </div>
@@ -86,7 +86,7 @@
                             </figure>
                             <div class="post-list-item-content">
                                 <div class="post-info-top">
-                                    <div class="post-info-date  mb-20">
+                                    <div class="post-info-date mb-20">
                                         <span>2 september, 2019</span>
                                     </div>
 
@@ -96,8 +96,8 @@
                                     <a href="/effective-social-media-marketing-tips">Effective Social Media Marketing- Tips and Best Practices</a>
                                 </h4>
 
-                                <div class="link-custom" data-dsn-animate="up">
-                                    <a class="image-zoom effect-ajax" href="/effective-social-media-marketing-tips" data-dsn="parallax">
+                                <div class="link-custom"data-dsn-animate="up">
+                                    <a class="image-zoom "href="/effective-social-media-marketing-tips" >
                                         <span>Read More</span>
                                     </a>
                                 </div>

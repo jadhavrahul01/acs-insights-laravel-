@@ -383,6 +383,42 @@ amp-story-player.my-player {
 
 
 
+.policy-pg{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -618,7 +654,8 @@ code {
 }
 .nft .main .description {
     margin: 0.5rem 0;
-    color: #a89ec9;
+    /* color: #a89ec9; */
+    color: #1af46e;
 }
 .nft .main .tokenInfo {
     display: flex;
@@ -2204,7 +2241,7 @@ svg {
       a:hover {
         color: #ffffff
       }
-     
+
       span {
         content: "\2192";
       }

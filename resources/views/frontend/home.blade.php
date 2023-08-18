@@ -842,7 +842,7 @@
                             </a>
                             <a href="javascript:void(0)" class="effect-ajax">
 
-                                <span class="hiring">
+                                <span style="width:100%;text-align: center;" class="hiring">
                                     What can we do for you ?
                                 </span>
 

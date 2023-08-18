@@ -55,4 +55,18 @@ class HomeController extends Controller
     }
 
 
+    public function cookiepolicy()
+    {
+        return view('frontend.cookiepolicy');
+    }
+    public function securitypolicy()
+    {
+        return view('frontend.securitypolicy');
+    }
+    public function privacypolicy()
+    {
+        return view('frontend.privacypolicy');
+    }
+
+
 }

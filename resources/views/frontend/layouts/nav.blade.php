@@ -306,12 +306,7 @@
                         <a href="#">Our Services</a>
                     </li> --}}
                     <li class="sub-dropdown">
-                        <div>
-                            <span>Business</span>
-                            <span class="material-symbols-outlined">
-                                chevron_right
-                            </span>
-                        </div>
+                      
                         <ul class="sub-menu">
                             <li>
                                 <a href="{{ url('business-consultancy') }}">Business Consultancy</a>
@@ -586,6 +581,15 @@
             </li> --}}
             <li class="dropdown">
                 <div>
+                    <a href="{{ url('portfolio') }}">Portfolio</a>
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
+                </div>
+
+            </li>
+            <li class="dropdown">
+                <div>
                     <a href="{{ url('blog') }}">Blogs</a>
                     <span class="material-symbols-outlined">
                         chevron_right
@@ -811,6 +815,9 @@
 
 
 
+                <li class="nav-item">
+                    <a href="{{ url('portfolio') }}">Portfolio</a>
+                </li>
                 <li class="nav-item">
                     <a href="{{ url('blog') }}">BLOGS</a>
                 </li>

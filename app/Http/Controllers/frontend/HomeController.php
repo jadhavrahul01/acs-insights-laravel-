@@ -35,6 +35,10 @@ class HomeController extends Controller
     {
         return view('frontend.marketing-solution');
     }
+    public function portfolio()
+    {
+        return view('frontend.portfolio');
+    }
     public function blog()
     {
         return view('frontend.blog');

@@ -20,11 +20,6 @@
                 </div>
             </div>
         </header>
-
-
-
-
-
         <div class="wrapper">
             <div class="root-about">
                 <div class="box-seat box-seat-full">
@@ -79,8 +74,7 @@
                     </div>
                 </section> -->
 
-{{--
-                <section class="intro-about section-margin" data-dsn="color">
+            {{--<section class="intro-about section-margin" data-dsn="color">
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6">
@@ -172,24 +166,6 @@
                         </div>
                     </div>
                 </section> --}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <section style="margin: 100px 0px 10px 0px;" class="our-services">
                     <div class="container">
                         {{-- <div class="one-title dsn-active" data-dsn-animate="up"> --}}

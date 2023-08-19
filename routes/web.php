@@ -17,6 +17,7 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('about', [HomeController::class, 'about']);
 Route::get('services', [HomeController::class, 'services']);
 Route::get('contact', [HomeController::class, 'contact']);
+Route::get('portfolio', [HomeController::class, 'portfolio']);
 Route::get('blog', [HomeController::class, 'blog']);
 Route::get('business-consultancy', [HomeController::class, 'businessconsultancy']);
 Route::get('it-solution', [HomeController::class, 'itsolution']);

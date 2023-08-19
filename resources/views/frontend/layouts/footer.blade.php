@@ -30,11 +30,9 @@
                         <h4 class="footer-title">Navigation</h4>
                         <nav>
                             <ul>
-                                <li><a href="#">Portfolio</a></li>
-                                <li><a href="#">Latest Designs</a></li>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Contact us</a>
-                                </li>
+                                <li><a href="/about">About Us</a></li>
+                                <li><a href="/portfolio">Portfolio</a></li>
+                                <li><a href="/contact">Contact us</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -47,8 +45,7 @@
                         <h4 class="footer-title">Policies</h4>
                         <nav>
                             <ul>
-                                <li><a href="/privacypolicy">Privacy Notice</a>
-                                </li>
+                                <li><a href="/privacypolicy">Privacy Notice</a></li>
                                 <li><a href="/securitypolicy">Security Notice</a></li>
                                 <li><a href="/cookiepolicy">Cookie Policy</a></li>
 
@@ -127,12 +124,10 @@
                         <h4 class="footer-title">Navigation</h4>
                         <nav>
                             <ul>
-                                <li><a href="#">Portfolio</a>
-                                </li>
-                                <li><a href="#">Latest Designs </a></li>
-                                <li><a href="#">About Us </a></li>
-                                <li><a href="#">Contact us </a>
-                                </li>
+
+                                <li><a href="/about">About Us</a></li>
+                                <li><a href="/portfolio">Portfolio</a></li>
+                                <li><a href="/contact">Contact us</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -145,10 +140,10 @@
                         <h4 class="footer-title">Policies</h4>
                         <nav>
                             <ul>
-                                <li><a href="#">Privacy Notice</a>
+                                <li><a href="/privacypolicy">Privacy Notice</a>
                                 </li>
-                                <li><a href="#">Security Notice</a></li>
-                                <li><a href="#">Cookie Policy</a></li>
+                                <li><a href="/securitypolicy">Security Notice</a></li>
+                                <li><a href="/cookiepolicy">Cookie Policy</a></li>
 
                                 </li>
                             </ul>

@@ -75,10 +75,4 @@
                 </p>
 
             </div>
-
-
-
-
-
-
-        @endsection
+@endsection

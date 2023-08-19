@@ -403,9 +403,11 @@ amp-story-player.my-player {
   width: 100%;
   padding: 40px 0;
 } */
-
+.cardrow{
+    gap: 30px;
+}
 .it-section{
-    height: 50vh;
+    height: 100vh;
     background-color: rgb(0, 0, 0);
 }
 .slide-container {

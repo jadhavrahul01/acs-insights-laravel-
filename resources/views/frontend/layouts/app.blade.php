@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>  ACS Insights| @yield('title') </title>
+    <title>  ACS Insights | @yield('title') </title>
     @include('frontend.layouts.header')
 
 </head>

@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'acs insights')
+@section('title', 'Our Services')
 @section('page')
     {{-- <div data-image-src="{{ asset('user-assets/img/project/project6/hero-section.jpg') }}" data-overlay="4"
         class="header-hero header-hero-2 ">

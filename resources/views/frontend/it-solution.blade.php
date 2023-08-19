@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'Marketing Solution')
+@section('title', 'IT Solution')
 @section('page')
     {{-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'> --}}
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
@@ -88,11 +88,10 @@
 
 
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <div class="mb-100 it-section">
-        <div class="container swiper">
-            <div class="slide-container">
-                <div class="card-wrapper swiper-wrapper">
-                    <div class="card-it swiper-slide">
+    <div class="mb-80 it-section">
+        <div class="container">
+            <div class="row cardrow">
+                    <div class="card-it ">
                         <div class="image-box">
                             <img src="{{ asset('user-assets/img/services/website-devlopment.jpg') }}" alt="" />
                         </div>
@@ -106,7 +105,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card-it swiper-slide">
+                    <div class="card-it">
                         <div class="image-box">
                             <img src="{{ asset('user-assets/img/services/app-devlopment.jpg') }}" alt="" />
                         </div>
@@ -119,7 +118,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card-it swiper-slide">
+                    <div class="card-it">
                         <div class="image-box">
                             <img src="{{ asset('user-assets/img/services/uiux-design.jpg') }}" alt="" />
                         </div>
@@ -132,13 +131,31 @@
                             </div>
                         </div>
                     </div>
-                    <div class="card-it swiper-slide">
+                    </div>
+
+
+
+                    <div class="mt-40 row cardrow">
+                    <div class="card-it">
                         <div class="image-box">
                             <img src="{{ asset('user-assets/img/services/email-html-templet.jpg') }}" alt="" />
                         </div>
                         <div class="profile-details">
                             <div class="name-job">
                                 <h2 class="name">Email HTML Templates</h2>
+                                <br>
+                                <h4 class="job">HTML templates are used to create emails that look great. They allow you
+                                    to use the same content in multiple emails, which is great for efficiency.</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-it">
+                        <div class="image-box">
+                            <img src="{{ asset('user-assets/img/services/email-html-templet.jpg') }}" alt="" />
+                        </div>
+                        <div class="profile-details">
+                            <div class="name-job">
+                                <h2 class="name">CMS</h2>
                                 <br>
                                 <h4 class="job">HTML templates are used to create emails that look great. They allow you
                                     to use the same content in multiple emails, which is great for efficiency.</h4>
@@ -153,8 +170,6 @@
         <div class="swiper-pagination"></div> --}}
             {{-- <div class="swiper-pagination"></div> --}}
         </div>
-
-    </div>
 
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>

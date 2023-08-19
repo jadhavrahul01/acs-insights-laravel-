@@ -1,5 +1,5 @@
 @extends('frontend.layouts.app')
-@section('title', 'acs insights')
+@section('title', 'About Us')
 @section('page')
 
 

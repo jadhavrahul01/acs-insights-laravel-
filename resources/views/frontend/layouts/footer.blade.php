@@ -30,11 +30,10 @@
                         <h4 class="footer-title">Navigation</h4>
                         <nav>
                             <ul>
-                                <li><a href="#">Portfolio</a>
-                                </li>
-                                <li><a href="#">Latest Designs </a></li>
-                                <li><a href="#">About Us </a></li>
-                                <li><a href="#">Contact us </a>
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">Latest Designs</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact us</a>
                                 </li>
                             </ul>
                         </nav>

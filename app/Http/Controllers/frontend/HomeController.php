@@ -43,6 +43,10 @@ class HomeController extends Controller
     {
         return view('frontend.blog');
     }
+    public function bsphotographyproject()
+    {
+        return view('frontend.bsphotography-project');
+    }
 
 
     public function effectivesocialmedia()

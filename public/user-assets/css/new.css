@@ -2249,30 +2249,7 @@ svg {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 500px) and (max-width: 950px) {
+@media only screen and (min-width: 500px) and (max-width: 949px) {
     .spacing {
         margin: 0 104px;
         flex-direction: column;
@@ -2289,11 +2266,8 @@ svg {
     }
 }
 
-@media only screen and (min-width: 200px) and (max-width: 500px) {
-
-
-
-    .card-it {
+@media only screen and (min-width: 200px) and (max-width: 549px) {
+.card-it {
         width: 355.5px!important;
         border-radius: 8px;
     }
@@ -2302,11 +2276,6 @@ svg {
         margin: 0 9px;
         overflow: hidden;
     }
-
-
-
-
-
     a {
         text-decoration: none;
         color: #ffffff;
@@ -2399,26 +2368,6 @@ svg {
         padding: 0;
         border-bottom: 1px solid #cccccc;
       }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     .who-row {
         flex-direction: column;
         gap: 30px;

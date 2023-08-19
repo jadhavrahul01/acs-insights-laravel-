@@ -426,7 +426,7 @@
                                                 alt="">
                                             <div class="item-border"></div>
                                             <div class="item-info">
-                                                <a href="bsphotography-project.html" data-dsn-grid="move-up"
+                                                <a href="/bsphotography-project" data-dsn-grid="move-up"
                                                     class="effect-ajax">
 
                                                     <h5 class="cat">Website</h5>
@@ -441,7 +441,7 @@
                                                 src="{{ asset('user-assets/img/project/project6/yosh-group-project-feature-image.jpg') }}"alt="">
                                             <div class="item-border"></div>
                                             <div class="item-info">
-                                                <a href="yosh-group.html" data-dsn-grid="move-up" class="effect-ajax">
+                                                <a href="#" data-dsn-grid="move-up" class="effect-ajax">
 
                                                     <h5 class="cat">Social Media Marketing</h5>
                                                     <h4>Yosh Group</h4>

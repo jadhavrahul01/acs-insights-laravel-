@@ -87,9 +87,8 @@
 
 
 
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-    <div class="mb-80 it-section">
-        <div class="container">
+    <div class="mb-80 container ">
+
             <div class="row cardrow">
                     <div class="card-it ">
                         <div class="image-box">
@@ -169,7 +168,7 @@
         <div class="swiper-button-prev swiper-navBtn"></div>
         <div class="swiper-pagination"></div> --}}
             {{-- <div class="swiper-pagination"></div> --}}
-        </div>
+
 
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>

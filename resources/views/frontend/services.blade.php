@@ -49,14 +49,14 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="intro-content-text">
-                        <h2 data-dsn-move="-30" data-dsn-duration="100%" data-dsn-opacity="1.2" data-dsn-responsive="tablet"
-                            class="dsn-move-section"
-                            style=" text-align:left; visibility: inherit; opacity: 1.08914; transform: translate3d(0px, -13.3717px, 0px);">
+                        <h2  data-dsn-move="-30" data-dsn-duration="100%" data-dsn-opacity="1.2" data-dsn-responsive="tablet"
+                            class="mb-10 dsn-move-section"
+                            style="text-align:left; visibility: inherit; opacity: 1.08914; transform: translate3d(0px, -13.3717px, 0px);">
                             <br>
                             Business Consultancy
                         </h2>
 
-                        <p data-dsn-animate="up" class="dsn-active">
+                        <p style="font-size: 1.2rem;    max-width: 435px;" data-dsn-animate="up" class="dsn-active">
                             "Empowering your success through strategic business consultancy."
 
                         </p>
@@ -78,17 +78,16 @@
     <section class="intro-about section-margin">
         <div class="container">
             <div class="mo-ser-row row">
-
                 <div class="col-lg-6">
                     <div class="intro-content-text">
                         <h2 data-dsn-move="-30" data-dsn-duration="100%" data-dsn-opacity="1.2" data-dsn-responsive="tablet"
-                            class="dsn-move-section"
-                            style=" text-align:left; visibility: inherit; opacity: 1.08914; transform: translate3d(0px, -13.3717px, 0px);">
+                            class="mb-10 dsn-move-section"
+                            style="text-align:left; visibility: inherit; opacity: 1.08914; transform: translate3d(0px, -13.3717px, 0px);">
                             <br>
                             Marketing Solutions
                         </h2>
 
-                        <p data-dsn-animate="up" class="dsn-active">
+                        <p style="font-size: 1.2rem;    max-width: 435px;" data-dsn-animate="up" class="dsn-active">
                             "Elevate your brand with tailored
                             marketing solutions that captivate and
                             convert."
@@ -139,13 +138,13 @@
                 <div class="col-lg-6">
                     <div class="intro-content-text">
                         <h2 data-dsn-move="-30" data-dsn-duration="100%" data-dsn-opacity="1.2" data-dsn-responsive="tablet"
-                            class="dsn-move-section"
+                            class="mb-10 dsn-move-section"
                             style=" text-align:left; visibility: inherit; opacity: 1.08914; transform: translate3d(0px, -13.3717px, 0px);">
                             <br>
                             IT Solutions
                         </h2>
 
-                        <p data-dsn-animate="up" class="dsn-active">
+                        <p style="font-size: 1.2rem;    max-width: 435px;" data-dsn-animate="up" class="dsn-active">
 
 
                             "Navigating your digital transformation with innovative IT solutions."

@@ -10,7 +10,7 @@
             <div class="row align-items-center h-100">
                 <div class="text-center col-lg-12">
                     <div class=" contenet-hero">
-                        <h1>Business Consultancy</h1>
+                        <h1 style="max-width: 1023px;">Business Consultancy</h1>
                         <h6 style="font-weight: 200; margin-top:20px;">Our comprehensive consultancy services can help your
                             business reach its full potential. Analyzing, strategizing, and implementing solutions that
                             drive growth are our specialties.

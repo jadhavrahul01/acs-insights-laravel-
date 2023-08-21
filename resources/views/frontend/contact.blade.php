@@ -10,7 +10,7 @@
           <div class="row">
             <div class="col-lg-6">
               <div class="contenet-hero">
-                <h5>Lat's Connect</h5>
+                <h5>Let's Connect</h5>
                 <h1>Contact</h1>
               </div>
             </div>
@@ -42,8 +42,7 @@
                     </li>
                     <li>
                       <span style="min-width: 85px;">Email</span>
-                      <a href="mailto:
-                      hello@acsinsights.com">
+                      <a href="mailto:hello@acsinsights.com">
                         hello@acsinsights.com</a>
                     </li>
                     <li>

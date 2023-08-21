@@ -36,7 +36,7 @@
 
 
 
-
+{{--
 
     <section class="container game-section">
         <div class="owl-carousel custom-carousel owl-theme">
@@ -73,17 +73,64 @@
 
         </div>
         </div>
-      </section>
+      </section> --}}
 
 
 
 
-      <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script><script  src="./script.js"></script>
+      {{-- <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js'></script><script  src="./script.js"></script> --}}
       {{-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script> --}}
 
 
+      <section class="container game-section">
 
+        <div class="ms-row mb-50">
+            <div class="card-ms">
+                <div class="content">
+        <img src="{{asset('user-assets/img/services/smm.jpg')}}" alt="">
+                    <h3>SMM</h3>
+                <p class="para">
+                    Enhance your brand's reach through dynamic social media management.
+                  </p>
 
+                </div>
+              </div>
+      <div class="card-ms">
+        <div class="content">
+            <img src="{{asset('user-assets/img/services/seo.jpg')}}" alt="">
+            <h3>SEO</h3>
+        <p class="para">
+            Enhancing your online presence with expert SEO services.
+          </p>
 
+        </div>
+      </div>
+
+      </div>
+      <div class="ms-row">
+
+          <div class="card-ms">
+            <div class="content">
+    <img src="{{asset('user-assets/img/services/marketing-strategy.jpg')}}" alt="">
+                <h3>Marketing and Strategy</h3>
+         <p class="para">
+                Achieving success through innovative marketing and strategic thinking.
+              </p>
+
+            </div>
+          </div>
+      <div class="card-ms">
+        <div class="content">
+            <img src="{{asset('user-assets/img/services/marketing-campaign.jpg')}}" class="ms-img">
+            <h3>Marketing Campaign</h3>
+       <p class="para">
+            Creating marketing campaigns that are results-driven and impactful.
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+</section>
 
 @endsection

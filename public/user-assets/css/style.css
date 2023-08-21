@@ -11576,8 +11576,8 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   position: relative;
   width: 80%;
   height: 100%;
-  left: 20%;
-  overflow: hidden;
+  left: 15%;
+  overflow: hidden; 
 }
 
 .dsn-slider.demo2 .dsn-root-slider {
@@ -12314,7 +12314,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
 }
 
 .dsn-slider-content .slide-content .slide-content-inner {
-  padding-left: 12.5vw;
+  padding-left: 7.5vw;
 }
 
 .dsn-slider-content .slide-content .slide-content-inner .title-text-header {

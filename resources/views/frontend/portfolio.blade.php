@@ -11,7 +11,7 @@
             <div class="row align-items-center h-100"   >
                 <div class="text-center col-lg-12">
                     <div class=" contenet-hero">
-                        <h1>Portfolio</h1>
+                        <h1 style="max-width: 1084px;">Portfolio</h1>
                         </h6>
                         {{-- <p>Building strong connections between brands and their target customers through data-driven digital marketing approaches.</p> --}}
                         {{-- <a href="#" class="view-case scroll-down scroll-to">Scroll Down <img src="assets/img/arrow-right-wight.png" alt=""></a> --}}
@@ -41,7 +41,7 @@
                         not the hands, it gets harder to be damaged. It provides you with experience to feel
                         the time at the end of your finger without damaging your watch.</p>
 
-                    <a class="bottom-link" data-dsn-animate="up" href="#" target="_blank">
+                    {{-- <a class="bottom-link" data-dsn-animate="up" href="#" target="_blank">
                         <span></span>
                         <span></span>
                         <div class="content">
@@ -49,7 +49,7 @@
                                 <p>VISIT SITE</p>
                             </div>
                         </div>
-                    </a>
+                    </a> --}}
                 </div>
             </div>
         </div>

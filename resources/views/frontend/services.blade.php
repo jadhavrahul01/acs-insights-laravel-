@@ -51,7 +51,7 @@
                     <div class="intro-content-text">
                         <h2  data-dsn-move="-30" data-dsn-duration="100%" data-dsn-opacity="1.2" data-dsn-responsive="tablet"
                             class="mb-10 dsn-move-section"
-                            style="text-align:left; visibility: inherit; opacity: 1.08914; transform: translate3d(0px, -13.3717px, 0px);">
+                            style="line-height: 20px!important;text-align:left; visibility: inherit; opacity: 1.08914; transform: translate3d(0px, -13.3717px, 0px);">
                             <br>
                             Business Consultancy
                         </h2>
@@ -82,7 +82,7 @@
                     <div class="intro-content-text">
                         <h2 data-dsn-move="-30" data-dsn-duration="100%" data-dsn-opacity="1.2" data-dsn-responsive="tablet"
                             class="mb-10 dsn-move-section"
-                            style="text-align:left; visibility: inherit; opacity: 1.08914; transform: translate3d(0px, -13.3717px, 0px);">
+                            style="line-height: 20px!important;text-align:left; visibility: inherit; opacity: 1.08914; transform: translate3d(0px, -13.3717px, 0px);">
                             <br>
                             Marketing Solutions
                         </h2>
@@ -139,7 +139,7 @@
                     <div class="intro-content-text">
                         <h2 data-dsn-move="-30" data-dsn-duration="100%" data-dsn-opacity="1.2" data-dsn-responsive="tablet"
                             class="mb-10 dsn-move-section"
-                            style=" text-align:left; visibility: inherit; opacity: 1.08914; transform: translate3d(0px, -13.3717px, 0px);">
+                            style="line-height: 20px!important; text-align:left; visibility: inherit; opacity: 1.08914; transform: translate3d(0px, -13.3717px, 0px);">
                             <br>
                             IT Solutions
                         </h2>

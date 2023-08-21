@@ -28,7 +28,7 @@
 
                                             </div>
                                         </div>
-                                        <p>"Elevate your brand with tailored
+                                        <p style="font-size: 1.3rem;">"Elevate your brand with tailored
                                             marketing solutions that captivate and
                                             convert."
                                         </p>
@@ -67,7 +67,7 @@
                                             </div>
                                         </div>
 
-                                        <p>"Navigating your digital transformation with innovative IT solutions."</p>
+                                        <p style="font-size: 1.3rem;">"Navigating your digital transformation with innovative IT solutions."</p>
 
                                         <div class="link-custom">
                                             <a href="project-5.html" class="image-zoom effect-ajax" data-dsn="parallax"
@@ -104,7 +104,7 @@
                                             </div>
                                         </div>
 
-                                        <p>"Empowering your success through strategic business consultancy."</p>
+                                        <p style="font-size: 1.3rem;">"Empowering your success through strategic business consultancy."</p>
 
                                         <div class="link-custom">
                                             <a href="project-5.html" class="image-zoom effect-ajax" data-dsn="parallax"

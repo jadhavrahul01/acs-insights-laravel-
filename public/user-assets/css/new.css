@@ -389,12 +389,6 @@ amp-story-player.my-player {
 }
 
 
-
-
-
-
-
-
 /* Google Fonts - Poppins */
 
 /*
@@ -413,17 +407,28 @@ amp-story-player.my-player {
 }
 
 .card-it {
-  width: 355.5px!important;
-  background: #fff;
+  width: 328.5px!important;
+  background: #141414;
   border-radius: 8px;
 }
+.card-it:hover {
+    box-shadow: 0px 30px 30px rgb(36, 34, 36);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    transform: translateY(-10px);
+    transition: all 0.3s ease-out 0s;
+}
 .card-it .image-box {
-  height: 200px;
+    height: 100px;
+    width: 100px;
+    margin: 32px 20px 0px 20px;
 }
 .card-it .image-box img {
   width: 100%;
   height: 100%;
-  border-radius: 8px 8px 0 0;
+  border-radius: 100%;
 }
 .card-it .profile-details {
   display: flex;
@@ -733,7 +738,7 @@ code {
 .nft .main .description {
     margin: 0.5rem 0;
     /* color: #a89ec9; */
-    color: #1af46e;
+    color: #c3c3c3;
 }
 .nft .main .tokenInfo {
     display: flex;
@@ -1867,11 +1872,9 @@ svg {
     width: 100%;
     height: 90%;
 }
-
-h2{
-line-height: 20px!important;
+.itcard{
+    width: 331.5px!important;
 }
-
 .swiper-slide {
     text-align: center;
     background: #000000;

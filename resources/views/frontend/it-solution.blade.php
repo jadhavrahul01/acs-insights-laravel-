@@ -14,7 +14,7 @@
                 <div class="row align-items-center h-100">
                     <div class="text-center col-lg-12">
                         <div class=" contenet-hero">
-                            <h1>IT Solution</h1>
+                            <h1  style="max-width: 1095px;">IT Solution</h1>
                             <h6 style="font-weight: 200; margin-top:20px;">With our IT solutions, you can experience
                                 seamless technological advancement. Our team navigates your business towards digital
                                 excellence from scalable infrastructure to intricate software solutions.
@@ -77,22 +77,12 @@
     {{-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script> --}}
 
 
-
-
-
-
-    <!-- Swiper CSS -->
-
-    <!-- CSS -->
-
-
-
     <div class="mb-80 container ">
 
             <div class="row cardrow">
                     <div class="card-it ">
                         <div class="image-box">
-                            <img src="{{ asset('user-assets/img/services/website-devlopment.jpg') }}" alt="" />
+                            <img src="{{asset('user-assets/img/services/website-devlopment.jpg')}}" alt="" />
                         </div>
                         <div class="profile-details">
                             {{-- <img src="https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150061967.jpg?size=626&ext=jpg" alt="" /> --}}
@@ -119,7 +109,7 @@
                     </div>
                     <div class="card-it">
                         <div class="image-box">
-                            <img src="{{ asset('user-assets/img/services/uiux-design.jpg') }}" alt="" />
+                            <img src="{{asset('user-assets/img/services/uiux-design.jpg')}}" alt="" />
                         </div>
                         <div class="profile-details">
                             <div class="name-job">
@@ -131,17 +121,14 @@
                         </div>
                     </div>
                     </div>
-
-
-
-                    <div class="mt-40 row cardrow">
-                    <div class="card-it">
+                <div class="mt-40 row  cardrow">
+                    <div class="itcard card-it ">
                         <div class="image-box">
                             <img src="{{ asset('user-assets/img/services/email-html-templet.jpg') }}" alt="" />
                         </div>
                         <div class="profile-details">
                             <div class="name-job">
-                                <h2 class="name">Email HTML Templates</h2>
+                                <h2  class="name">Email HTML Templates</h2>
                                 <br>
                                 <h4 class="job">HTML templates are used to create emails that look great. They allow you
                                     to use the same content in multiple emails, which is great for efficiency.</h4>

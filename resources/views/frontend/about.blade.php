@@ -13,7 +13,7 @@
                             <div style="padding: 160px 0px 50px 0px" class="contenet-hero">
                                 <h1>Connecting Brands to Customers…</h1>
                                 <p>Building strong connections between brands and their target customers through data-driven digital marketing approaches.</p>
-                                <a href="#" class="view-case scroll-down scroll-to">Scroll Down <img src="assets/img/arrow-right-wight.png" alt=""></a>
+                                {{-- <a href="#" class="view-case scroll-down scroll-to">Scroll Down <img src="assets/img/arrow-right-wight.png" alt=""></a> --}}
                             </div>
                         </div>
                     </div>

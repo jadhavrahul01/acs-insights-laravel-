@@ -361,6 +361,38 @@
                             </div>
                         </div>
 
+
+
+
+                    {{-- <div class="row">
+                        <div class="column">
+                            <div class="card-count">
+                              <h3><span id="Partners">0</span>+</h3>
+                              <h3 style="font-size: 20px">Years of Industry
+                                Experience</h3>
+                            </div>
+                          </div>
+                          <div class="column">
+                            <div class="card-count">
+                              <h3><span id="Projects">0</span>+</h3>
+                              <h3 style="font-size: 20px">Focused on <br>
+                                Industries</h3>
+                            </div>
+                          </div>
+                          <div class="column">
+                            <div class="card-count">
+                              <h3><span id="Clients">0</span>+</h3>
+                              <h3 style="font-size: 20px">Successful <br>
+                                Projects</h3>
+                            </div>
+                          </div>
+                    </div> --}}
+
+
+
+
+
+
                     </div>
 
 

@@ -1618,12 +1618,12 @@ button {
     max-width: 483px;
 }
 
-h10 {
+/* h10 {
     font-size: 12px;
     margin-left: 5px !important;
     letter-spacing: 0.8px;
     font-family: Arial !important;
-}
+} */
 
 .setting-description-text {
     padding-top: 18px !important;
@@ -1638,6 +1638,54 @@ h10 {
 
 
 
+
+
+
+
+
+
+/* counter start */
+
+
+  .column {
+    float: left;
+    width: 30%;
+    padding: 1.5%;
+  }
+
+  .row {margin: 0 -5px;}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 30%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+  .card-count {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+  }
+  .card-count h3 span{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }
+
+/* counter end */
 
 
 .card-ms {

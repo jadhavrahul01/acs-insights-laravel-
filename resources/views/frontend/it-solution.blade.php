@@ -143,8 +143,7 @@
                             <div class="name-job">
                                 <h2 class="name">CMS</h2>
                                 <br>
-                                <h4 class="job">HTML templates are used to create emails that look great. They allow you
-                                    to use the same content in multiple emails, which is great for efficiency.</h4>
+                                <h4 class="job">You can manage your digital presence easily with our easy-to-use content management system.</h4>
                             </div>
                         </div>
                     </div>

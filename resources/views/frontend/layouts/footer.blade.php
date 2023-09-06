@@ -125,9 +125,9 @@
                         <nav>
                             <ul>
 
-                                <li><a href="/about">About Us</a></li>
-                                <li><a href="/portfolio">Portfolio</a></li>
-                                <li><a href="/contact">Contact us</a></li>
+                                <li><a style="font-size: 15px;color:#fff;" href="/about">About Us</a></li>
+                                <li><a style="font-size: 15px;color:#fff;" href="/portfolio">Portfolio</a></li>
+                                <li><a style="font-size: 15px;color:#fff;" href="/contact">Contact us</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -140,11 +140,9 @@
                         <h4 class="footer-title">Policies</h4>
                         <nav>
                             <ul>
-                                <li><a href="/privacypolicy">Privacy Notice</a>
-                                </li>
-                                <li><a href="/securitypolicy">Security Notice</a></li>
-                                <li><a href="/cookiepolicy">Cookie Policy</a></li>
-
+                                <li><a style="font-size: 15px;color:#fff;" href="/privacypolicy">Privacy Notice</a></li>
+                                <li><a style="font-size: 15px;color:#fff;" href="/securitypolicy">Security Notice</a></li>
+                                <li><a style="font-size: 15px;color:#fff;" href="/cookiepolicy">Cookie Policy</a></li>
                                 </li>
                             </ul>
                         </nav>
@@ -159,10 +157,10 @@
                         <h4 class="footer-title">Contact</h4>
                         <nav>
                             <ul>
-                                <li><a href="tel:+91 8390194975">+91 8390194975</a>
+                                <li><a style="font-size: 15px;color:#fff;" href="tel:+91 8390194975">+91 8390194975</a>
                                 </li>
-                                <li><a href="tel:+91 9145455019">+91 9145455019</a></li>
-                                <li><a style="text-transform: lowercase;" href="mailto:info@acsinsights.com">info@acsinsights.com</a></li>
+                                <li><a style="font-size: 15px;color:#fff;" href="tel:+91 9145455019">+91 9145455019</a></li>
+                                <li><a style="font-size: 15px;color:#fff;text-transform: lowercase;" href="mailto:info@acsinsights.com">info@acsinsights.com</a></li>
 
                                 </li>
                             </ul>
@@ -173,7 +171,7 @@
                     <div class="col-address">
                         <h4 class="footer-title">Address</h4>
 
-                        <p>Shop No 3, Indraprasth Bldg,
+                        <p  style="font-size: 15px;color:#fff;">Shop No 3, Indraprasth Bldg,
                             Bhimnagar, Boisar
                             401504
                        </p>

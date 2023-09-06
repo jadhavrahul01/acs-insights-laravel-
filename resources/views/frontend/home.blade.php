@@ -660,11 +660,11 @@
                     </div>
                 </section>
 
-                <section class="our-news section-margin">
+                {{-- <section class="our-news section-margin">
                     <div class="container">
                         <div class="one-title" data-dsn-animate="up">
                             <div class="title-sub-container">
-                                <!-- <p class="title-sub">Latest News</p> -->
+
                             </div>
                             <h2 class="title-main">Blogs </h2>
                         </div>
@@ -735,7 +735,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> --}}
 
 
 
@@ -865,10 +865,10 @@
                 <section class="contact-up section-padding">
                     <div class="container">
                         <div class="c-wapp">
-                            <a href="contact.html" class="effect-ajax justify-content-start mb-30">
-                                <span class="career">
+                            <a style="font-size: 1.4rem;color:#fff;" href="{{ url('contact') }}" class="career effect-ajax justify-content-center mb-30">   Let’s Chat
+                                {{-- <span style="font-size: 1.4rem;" class="career">
                                     Let’s Chat
-                                </span>
+                                </span> --}}
 
 
                             </a>
@@ -884,7 +884,7 @@
                     </div>
                     <div class="pop-up-btn text-center">
                         <a href="{{ url('contact') }}">
-                            <button class="mt-100 first-button image-zoom effect-ajax" data-dsn-ajax="slider"><span>Get a
+                            <button class="mt-100 first-button image-zoom effect-ajax" data-dsn-ajax="slider"><span style="font-size: 1.2rem;">Get a
                                     Free Business Plan</span></button></a>
                     </div>
                     <!-- <div class="pop-up-btn">

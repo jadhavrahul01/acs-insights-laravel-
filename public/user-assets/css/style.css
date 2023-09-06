@@ -5406,7 +5406,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   display: block;
   text-align: left;
   font-size: 42px;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.2;
   letter-spacing: 0.01em;
   color: transparent;
@@ -11577,7 +11577,7 @@ body.nav-active .dsn-nav-bar .icon-m .menu-icon__line {
   width: 80%;
   height: 100%;
   left: 15%;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .dsn-slider.demo2 .dsn-root-slider {

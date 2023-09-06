@@ -129,7 +129,7 @@
             <!-- Mens -->
             <li class="dropdown">
                 <div>
-                    <a href="{{ url('/') }}">Home</a>
+                    <a class="f-navcolor" href="{{ url('/') }}">Home</a>
                     <span class="material-symbols-outlined">
                         chevron_right
                     </span>
@@ -285,7 +285,7 @@
             </li>
             <li class="dropdown">
                 <div>
-                    <a href="{{ url('about') }}">About Us</a>
+                    <a class="f-navcolor" href="{{ url('about') }}">About Us</a>
                     <span class="material-symbols-outlined">
                         chevron_right
                     </span>
@@ -295,7 +295,7 @@
 
             <li class="dropdown">
                 <div class="dropdown-li">
-                    <a href="{{ url('services') }}">Our Services</a>
+                    <a class="f-navcolor" href="{{ url('services') }}">Our Services</a>
 
                     <span class="material-symbols-outlined">
                         chevron_right
@@ -303,19 +303,19 @@
                 </div>
                 <ul class="menu">
                     {{-- <li>
-                        <a href="#">Our Services</a>
+                        <a class="f-navcolor" href="#">Our Services</a>
                     </li> --}}
                     <li class="sub-dropdown">
-                      
+
                         <ul class="sub-menu">
                             <li>
-                                <a href="{{ url('business-consultancy') }}">Business Consultancy</a>
+                                <a class="f-navcolor" href="{{ url('business-consultancy') }}">Business Consultancy</a>
                             </li>
                             <li>
-                                <a href="{{ url('marketing-solution') }}">Marketing Solution</a>
+                                <a class="f-navcolor" href="{{ url('marketing-solution') }}">Marketing Solution</a>
                             </li>
                             <li>
-                                <a href="{{ url('it-solution') }}">IT Solution</a>
+                                <a class="f-navcolor" href="{{ url('it-solution') }}">IT Solution</a>
                             </li>
 
                         </ul>
@@ -329,19 +329,19 @@
                         </div>
                         <ul class="sub-menu">
                             <li>
-                                <a href="#">All Shoes</a>
+                                <a class="f-navcolor" href="#">All Shoes</a>
                             </li>
                             <li>
-                                <a href="#">Lifestyle</a>
+                                <a class="f-navcolor" href="#">Lifestyle</a>
                             </li>
                             <li>
-                                <a href="#">Jordan</a>
+                                <a class="f-navcolor" href="#">Jordan</a>
                             </li>
                             <li>
-                                <a href="#">Running</a>
+                                <a class="f-navcolor" href="#">Running</a>
                             </li>
                             <li>
-                                <a href="#">Training and Gym</a>
+                                <a class="f-navcolor" href="#">Training and Gym</a>
                             </li>
                         </ul>
                     </li> --}}
@@ -354,40 +354,40 @@
                         </div>
                         <ul class="sub-menu">
                             <li>
-                                <a href="#">All Clothing</a>
+                                <a class="f-navcolor" href="#">All Clothing</a>
                             </li>
                             <li>
-                                <a href="#">Lyfestyle</a>
+                                <a class="f-navcolor" href="#">Lyfestyle</a>
                             </li>
                             <li>
-                                <a href="#">Tops and T-Shirts</a>
+                                <a class="f-navcolor" href="#">Tops and T-Shirts</a>
                             </li>
                             <li>
-                                <a href="#">Hoodies and Sweatshirts</a>
+                                <a class="f-navcolor" href="#">Hoodies and Sweatshirts</a>
                             </li>
                             <li>
-                                <a href="#">Leggings</a>
+                                <a class="f-navcolor" href="#">Leggings</a>
                             </li>
                             <li>
-                                <a href="#">Trousers</a>
+                                <a class="f-navcolor" href="#">Trousers</a>
                             </li>
                             <li>
-                                <a href="#">Shorts</a>
+                                <a class="f-navcolor" href="#">Shorts</a>
                             </li>
                             <li>
-                                <a href="#">Tracksuits</a>
+                                <a class="f-navcolor" href="#">Tracksuits</a>
                             </li>
                             <li>
-                                <a href="#">Sports Bra</a>
+                                <a class="f-navcolor" href="#">Sports Bra</a>
                             </li>
                             <li>
-                                <a href="#">Matching Sets</a>
+                                <a class="f-navcolor" href="#">Matching Sets</a>
                             </li>
                             <li>
-                                <a href="#">Jackets</a>
+                                <a class="f-navcolor" href="#">Jackets</a>
                             </li>
                             <li>
-                                <a href="#">Skirts and Dresses</a>
+                                <a class="f-navcolor" href="#">Skirts and Dresses</a>
                             </li>
                         </ul>
                     </li> --}}
@@ -400,25 +400,25 @@
                         </div>
                         <ul class="sub-menu">
                             <li>
-                                <a href="#">All Sports</a>
+                                <a class="f-navcolor" href="#">All Sports</a>
                             </li>
                             <li>
-                                <a href="#">Running</a>
+                                <a class="f-navcolor" href="#">Running</a>
                             </li>
                             <li>
-                                <a href="#">Yoga</a>
+                                <a class="f-navcolor" href="#">Yoga</a>
                             </li>
                             <li>
-                                <a href="#">HandBall</a>
+                                <a class="f-navcolor" href="#">HandBall</a>
                             </li>
                             <li>
-                                <a href="#">Training and Gym</a>
+                                <a class="f-navcolor" href="#">Training and Gym</a>
                             </li>
                             <li>
-                                <a href="#">Tennis</a>
+                                <a class="f-navcolor" href="#">Tennis</a>
                             </li>
                             <li>
-                                <a href="#">Golf</a>
+                                <a class="f-navcolor" href="#">Golf</a>
                             </li>
                         </ul>
                     </li>
@@ -431,13 +431,13 @@
                         </div>
                         <ul class="sub-menu">
                             <li>
-                                <a href="#">All Accessories</a>
+                                <a class="f-navcolor" href="#">All Accessories</a>
                             </li>
                             <li>
-                                <a href="#">Bags and Backpacks</a>
+                                <a class="f-navcolor" href="#">Bags and Backpacks</a>
                             </li>
                             <li>
-                                <a href="#">Socks</a>
+                                <a class="f-navcolor" href="#">Socks</a>
                             </li>
                         </ul>
                     </li> --}}
@@ -446,14 +446,14 @@
             <!-- Kids section -->
             {{-- <li class="dropdown">
                 <div>
-                    <a href="{{ url('#') }}">Work</a>
+                    <a class="f-navcolor" href="{{ url('#') }}">Work</a>
                     <span class="material-symbols-outlined">
                         chevron_right
                     </span>
                 </div>
                 <ul class="menu">
                     <li>
-                        <a href="#">Work</a>
+                        <a class="f-navcolor" href="#">Work</a>
                     </li>
                     <li class="sub-dropdown">
                         <div>
@@ -464,13 +464,13 @@
                         </div>
                         <ul class="sub-menu">
                             <li>
-                                <a href="#">Featured</a>
+                                <a class="f-navcolor" href="#">Featured</a>
                             </li>
                             <li>
-                                <a href="#">New Releases</a>
+                                <a class="f-navcolor" href="#">New Releases</a>
                             </li>
                             <li>
-                                <a href="#">Bestsellers</a>
+                                <a class="f-navcolor" href="#">Bestsellers</a>
                             </li>
                         </ul>
                     </li>
@@ -483,22 +483,22 @@
                         </div>
                         <ul class="sub-menu">
                             <li>
-                                <a href="#">All Shoes</a>
+                                <a class="f-navcolor" href="#">All Shoes</a>
                             </li>
                             <li>
-                                <a href="#">Lifestyle</a>
+                                <a class="f-navcolor" href="#">Lifestyle</a>
                             </li>
                             <li>
-                                <a href="#">Jordan</a>
+                                <a class="f-navcolor" href="#">Jordan</a>
                             </li>
                             <li>
-                                <a href="#">Running</a>
+                                <a class="f-navcolor" href="#">Running</a>
                             </li>
                             <li>
-                                <a href="#">Football</a>
+                                <a class="f-navcolor" href="#">Football</a>
                             </li>
                             <li>
-                                <a href="#">Basketball</a>
+                                <a class="f-navcolor" href="#">Basketball</a>
                             </li>
                         </ul>
                     </li>
@@ -511,31 +511,31 @@
                         </div>
                         <ul class="sub-menu">
                             <li>
-                                <a href="#">All Clothing</a>
+                                <a class="f-navcolor" href="#">All Clothing</a>
                             </li>
                             <li>
-                                <a href="#">Tops and T-Shirts</a>
+                                <a class="f-navcolor" href="#">Tops and T-Shirts</a>
                             </li>
                             <li>
-                                <a href="#">Hoodies and Sweatshirts</a>
+                                <a class="f-navcolor" href="#">Hoodies and Sweatshirts</a>
                             </li>
                             <li>
-                                <a href="#">Shorts</a>
+                                <a class="f-navcolor" href="#">Shorts</a>
                             </li>
                             <li>
-                                <a href="#">Tracksuits</a>
+                                <a class="f-navcolor" href="#">Tracksuits</a>
                             </li>
                             <li>
-                                <a href="#">Trousers and Leggings</a>
+                                <a class="f-navcolor" href="#">Trousers and Leggings</a>
                             </li>
                             <li>
-                                <a href="#">Jackets</a>
+                                <a class="f-navcolor" href="#">Jackets</a>
                             </li>
                             <li>
-                                <a href="#">Kits and Jerseys</a>
+                                <a class="f-navcolor" href="#">Kits and Jerseys</a>
                             </li>
                             <li>
-                                <a href="#">Sport Clothing</a>
+                                <a class="f-navcolor" href="#">Sport Clothing</a>
                             </li>
                         </ul>
                     </li>
@@ -548,13 +548,13 @@
                         </div>
                         <ul class="sub-menu">
                             <li>
-                                <a href="#">Baby & Toddler(0-3 years)</a>
+                                <a class="f-navcolor" href="#">Baby & Toddler(0-3 years)</a>
                             </li>
                             <li>
-                                <a href="#">Younger Kids(3-7 years)</a>
+                                <a class="f-navcolor" href="#">Younger Kids(3-7 years)</a>
                             </li>
                             <li>
-                                <a href="#">Older Kids(7-15 years)</a>
+                                <a class="f-navcolor" href="#">Older Kids(7-15 years)</a>
                             </li>
                         </ul>
                     </li>
@@ -567,13 +567,13 @@
                         </div>
                         <ul class="sub-menu">
                             <li>
-                                <a href="#">All Accessories</a>
+                                <a class="f-navcolor" href="#">All Accessories</a>
                             </li>
                             <li>
-                                <a href="#">Bags and Backpacks</a>
+                                <a class="f-navcolor" href="#">Bags and Backpacks</a>
                             </li>
                             <li>
-                                <a href="#">Socks</a>
+                                <a class="f-navcolor" href="#">Socks</a>
                             </li>
                         </ul>
                     </li>
@@ -581,7 +581,7 @@
             </li> --}}
             <li class="dropdown">
                 <div>
-                    <a href="{{ url('portfolio') }}">Portfolio</a>
+                    <a class="f-navcolor" href="{{ url('portfolio') }}">Portfolio</a>
                     <span class="material-symbols-outlined">
                         chevron_right
                     </span>
@@ -590,7 +590,7 @@
             </li>
             <li class="dropdown">
                 <div>
-                    <a href="{{ url('blog') }}">Blogs</a>
+                    <a class="f-navcolor" href="{{ url('blog') }}">Blogs</a>
                     <span class="material-symbols-outlined">
                         chevron_right
                     </span>
@@ -601,7 +601,7 @@
 
             <li class="dropdown">
                 <div>
-                    <a href="{{ url('contact') }}">Contact Us</a>
+                    <a class="f-navcolor" href="{{ url('contact') }}">Contact Us</a>
                     <span class="material-symbols-outlined">
                         chevron_right
                     </span>
